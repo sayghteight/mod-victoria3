@@ -1,0 +1,13 @@
+DecisionCheatDecree_MarkState = {
+	texture = "gfx/interface/icons/decree/decree_road_maintenance.dds"
+	modifier = {
+	}
+	unlocking_technologies = { 
+		
+	}
+	cost = 0
+
+	ai_weight = {
+		value = 0				
+	}
+}

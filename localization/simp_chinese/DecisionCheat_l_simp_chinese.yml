@@ -1,0 +1,770 @@
+﻿l_simp_chinese:
+ #Decision:
+ Open_Cheat_Decision:0"打开作弊决议"
+ Open_Cheat_Decision_desc:0"打开所有的作弊决议"
+ Close_Cheat_Decison:0"关闭作弊决议"
+ Close_Cheat_Decison_desc:0"关闭所有的作弊决议"
+ 
+ IncreasePopLoyalists_Decision:0"增加效忠派人群"
+ IncreasePopLoyalists_Decision_desc:0""
+ 
+ IncreasePopRadicals_Decision:0"增加激进派人群"
+ IncreasePopRadicals_Decision_desc:0""
+ 
+ IncreasePopLiteracy_Decision:0"增加全国人群识字率"
+ IncreasePopLiteracy_Decision_desc:0""
+ IncreasePopLiteracy_Decision_cp:0"增加全国人群的识字率"
+ 
+ DecreasePopLiteracy_Decision:0"减少全国人群识字率"
+ DecreasePopLiteracy_Decision_desc:0""
+ DecreasePopLiteracy_Decision_cp:0"减少全国人群的识字率"
+
+ 
+ AddTreasury_100K_Decision:0"增加100K的金钱"
+ AddTreasury_100K_Decision_desc:0""
+ AddTreasury_1000K_Decision:0"增加1000K的金钱"
+ AddTreasury_1000K_Decision_desc:0""
+ AddTreasury_10000K_Decision:0"增加10000K的金钱"
+ AddTreasury_10000K_Decision_desc:0""
+ 
+ Open_PopluationCheat_Decision:0"打开 人口作弊类的决议"
+ Open_PopluationCheat_Decision_desc:0""
+ Close_PopluationCheat_Decision:0"关闭 人口作弊类的决议"
+ Close_PopluationCheat_Decision_desc:0""
+ 
+ AddPop_Farmers_1000K_Decision:0"增加1000K的 $farmers$"
+ AddPop_Farmers_1000K_Decision_desc:0"需要在[concept_decree]中标记[concept_state]使用"
+ AddPop_Clerks_1000K_Decision:0"增加1000K的 $clerks$"
+ AddPop_Clerks_1000K_Decision_desc:0"需要在[concept_decree]中标记[concept_state]使用"
+ AddPop_Laborers_1000K_Decision:0"增加1000K的 $laborers$"
+ AddPop_Laborers_1000K_Decision_desc:0"需要在[concept_decree]中标记[concept_state]使用"
+ AddPop_Machinists_1000K_Decision:0"增加1000K的 $machinists$"
+ AddPop_Machinists_1000K_Decision_desc:0"需要在[concept_decree]中标记[concept_state]使用"
+ AddPop_Engineers_1000K_Decision:0"增加1000K的 $engineers$"
+ AddPop_Engineers_1000K_Decision_desc:0"需要在[concept_decree]中标记[concept_state]使用"
+ AddPop_Officers_10K_Decision:0"增加1000K的 $officers$"
+ AddPop_Officers_10K_Decision_desc:0"需要在[concept_decree]中标记[concept_state]使用"
+ AddPop_Shopkeepers_10K_Decision:0"增加1000K的 $shopkeepers$"
+ AddPop_Shopkeepers_10K_Decision_desc:0"需要在[concept_decree]中标记[concept_state]使用"
+ AddPop_Capitalists_10K_Decision:0"增加1000K的 $capitalists$"
+ AddPop_Capitalists_10K_Decision_desc:0"需要在[concept_decree]中标记[concept_state]使用"
+ AddPop_Aristocrats_10K_Decision:0"增加1000K的 $aristocrats$"
+ AddPop_Aristocrats_10K_Decision_desc:0"需要在[concept_decree]中标记[concept_state]使用"
+ AddPop_Academics_10K_Decision:0"增加1000K的 $academics$"
+ AddPop_Academics_10K_Decision_desc:0"需要在[concept_decree]中标记[concept_state]使用"
+ AddPop_Bureaucrats_10K_Decision:0"增加1000K的 $bureaucrats$"
+ AddPop_Bureaucrats_10K_Decision_desc:0"需要在[concept_decree]中标记[concept_state]使用"
+ AddPop_Clergymen_10K_Decision:0"增加1000K的 $clergymen$"
+ AddPop_Clergymen_10K_Decision_desc:0"需要在[concept_decree]中标记[concept_state]使用"
+
+ 
+ AddArableLand_100_Decision:0"增加100的[concept_arable_land]"
+ AddArableLand_100_Decision_desc:0"需要在[concept_decree]中标记[concept_state]使用"
+
+ MakeIndependent_Decision:0"使国家独立"
+ MakeIndependent_Decision_desc:0""
+
+ AddCountryConstructionModifier_Decision:0"获得 建筑力增加"
+ AddCountryConstructionModifier_Decision_desc:0""
+ RemoveCountryConstructionModifier_Decision:0"移除 建筑力增加"
+ RemoveCountryConstructionModifier_Decision_desc:0""
+ 
+ AddStateTaxCapacityAddModifier_Decision:0"获得 征税能力增加"
+ AddStateTaxCapacityAddModifier_Decision_desc:0""
+ RemoveStateTaxCapacityAddModifier_Decision:0"移除 征税能力增加"
+ RemoveStateTaxCapacityAddModifier_Decision_desc:0""
+ 
+ AddStateInfrastructureAddModifier_Decision:0"获得 基础设施增加"
+ AddStateInfrastructureAddModifier_Decision_desc:0""
+ RemoveStateInfrastructureAddModifier_Decision:0"移除 基础设施增加"
+ RemoveStateInfrastructureAddModifier_Decision_desc:0""
+
+
+ AddStateConstructionModifier_Decision:0"获得 地区建造效率"
+ AddStateConstructionModifier_Decision_desc:0""
+ RemoveStateConstructionModifier_Decision:0"移除 地区建造效率"
+ RemoveStateConstructionModifier_Decision_desc:0""
+ 
+ AddCountryBureaucracyModifier_Decision:0"获得 基础行政力增加"
+ AddCountryBureaucracyModifier_Decision_desc:0""
+ RemoveCountryBureaucracyModifier_Decision:0"移除 基础行政力增加"
+ RemoveCountryBureaucracyModifier_Decision_desc:0""
+ 
+ AddCountryAuthorityModifier_Decision:0"获得 基础权威力增加"
+ AddCountryAuthorityModifier_Decision_desc:0""
+ RemoveCountryAuthorityModifier_Decision:0"移除 基础权威力增加"
+ RemoveCountryAuthorityModifier_Decision_desc:0""
+ 
+ AddCountryInfluenceModifier_Decision:0"获得 基础影响力增加"
+ AddCountryInfluenceModifier_Decision_desc:0""
+ RemoveCountryInfluenceModifier_Decision:0"移除 基础影响力增加"
+ RemoveCountryInfluenceModifier_Decision_desc:0""
+ 
+ AddWeeklyInnovationModifier_Decision:0"获得 每周创新力增加"
+ AddWeeklyInnovationModifier_Decision_desc:0""
+ RemoveWeeklyInnovationModifier_Decision:0"移除 每周创新力增加"
+ RemoveWeeklyInnovationModifier_Decision_desc:0""
+
+ AddStateBirthRateModifier_Decision:0"获得 出生率"
+ AddStateBirthRateModifier_Decision_desc:0""
+ RemoveStateBirthRateModifier_Decision:0"移除 出生率"
+ RemoveStateBirthRateModifier_Decision_desc:0""
+ 
+ AddMigrationPullModifier_Decision:0"获得 移民吸引力增加"
+ AddMigrationPullModifier_Decision_desc:0""
+ RemoveMigrationPullModifier_Decision:0"移除 移民吸引力增加"
+ RemoveMigrationPullModifier_Decision_desc:0""
+ 
+ AddInterestGroupApprovalModifier_Decision:0"获得 利益集团支持度增加"
+ AddInterestGroupApprovalModifier_Decision_desc:0""
+ RemoveInterestGroupApprovalModifier_Decision:0"移除 利益集团支持度增加"
+ RemoveInterestGroupApprovalModifier_Decision_desc:0""
+ 
+ AddCountryPrestigeModifier_Decision:0"获得 国家威望增加"
+ AddCountryPrestigeModifier_Decision_desc:0""
+ RemoveCountryPrestigeModifier_Decision:0"移除 国家威望增加"
+ RemoveCountryPrestigeModifier_Decision_desc:0""
+ 
+ AddUnityArmyBonusModifier_Decision:0"获得 陆军加成"
+ AddUnityArmyBonusModifier_Decision_desc:0""
+ RemoveUnityArmyBonusModifier_Decision:0"移除 陆军加成"
+ RemoveUnityArmyBonusModifier_Decision_desc:0""
+ 
+ AddUnityNavyBonusModifier_Decision:0"获得 海军加成"
+ AddUnityNavyBonusModifier_Decision_desc:0""
+ RemoveUnityNavyBonusModifier_Decision:0"移除 海军加成"
+ RemoveUnityNavyBonusModifier_Decision_desc:0""
+
+ AddCountryTaxIncomeBonusModifier_Decision:0"获得 赋税能力加成"
+ AddCountryTaxIncomeBonusModifier_Decision_desc:0""
+ RemoveCountryTaxIncomeBonusModifier_Decision:0"移除 赋税能力加成"
+ RemoveCountryTaxIncomeBonusModifier_Decision_desc:0""
+ 
+ AddCountryLegitimacyBaseBonusModifier_Decision:0"获得 合法性加成"
+ AddCountryLegitimacyBaseBonusModifier_Decision_desc:0""
+ RemoveCountryLegitimacyBaseBonusModifier_Decision:0"移除 合法性加成"
+ RemoveCountryLegitimacyBaseBonusModifier_Decision_desc:0""
+
+ AddBuildingMinesBonusModifier_Decision:0"获得 资源产业加成"
+ AddBuildingMinesBonusModifier_Decision_desc:0""
+ RemoveBuildingMinesBonusModifier_Decision:0"移除 资源产业加成"
+ RemoveBuildingMinesBonusModifier_Decision_desc:0""
+ 
+ AddBuildingFarmsBonusModifier_Decision:"获得 农业加成"
+ AddBuildingFarmsBonusModifier_Decision_desc:0""
+ RemoveBuildingFarmsBonusModifier_Decision:0"移除 农业加成"
+ RemoveBuildingFarmsBonusModifier_Decision_desc:0""
+ 
+ AddCountryLawEnactmentTimeModifier_Decision:0"获得 立法时间减少"
+ AddCountryLawEnactmentTimeModifier_Decision_desc:0""
+ RemoveCountryLawEnactmentTimeModifier_Decision:0"移除 立法时间减少"
+ RemoveCountryLawEnactmentTimeModifier_Decision_desc:0""
+
+ AddStateAssimilationModifier_Decision:0"获得 同化加成"
+ AddStateAssimilationModifier_Decision_desc:0""
+ RemoveStateAssimilationModifier_Decision:0"移除 同化加成"
+ RemoveStateAssimilationModifier_Decision_desc:0""
+ 
+ AddCountryInfamyDecayDreaseModifier_Decision:0"获得 恶名衰减加快"
+ AddCountryInfamyDecayDreaseModifier_Decision_desc:0""
+ RemoveCountryInfamyDecayDreaseModifier_Decision:0"移除 恶名衰减加快"
+ RemoveCountryInfamyDecayDreaseModifier_Decision_desc:0""
+ 
+ AddCountryInfamyDecayIneaseModifier_Decision:0"获得 恶名衰减减缓"
+ AddCountryInfamyDecayIneaseModifier_Decision_desc:0""
+ RemoveCountryInfamyDecayIneaseModifier_Decision:0"移除 恶名衰减减缓"
+ RemoveCountryInfamyDecayIneaseModifier_Decision_desc:0""
+ 
+ AddStateStandardOfLivingModifier_Decision:0"获得 生活水平加成"
+ AddStateStandardOfLivingModifier_Decision_desc:0""
+ RemoveStateStandardOfLivingModifier_Decision:0"移除 生活水平加成"
+ RemoveStateStandardOfLivingModifier_Decision_desc:0""
+ 
+ AddStatePopQualificationModifier_Decision:0"获得 资质加成"
+ AddStatePopQualificationModifier_Decision_desc:0""
+ RemoveStatePopQualificationModifier_Decision:0"移除 资质加成"
+ RemoveStatePopQualificationModifier_Decision_desc:0""
+ 
+ AddColonyGrowthModifier_Decision:0"获得 殖民地增长加成"
+ AddColonyGrowthModifier_Decision_desc:0""
+ RemoveColonyGrowthModifier_Decision:0"移除 殖民地增长加成"
+ RemoveColonyGrowthModifier_Decision_desc:0""
+
+ AddStateEducationAccess_Decision:0"获得 教育机会加成"
+ AddStateEducationAccess_Decision_desc:0""
+ RemoveStateEducationAccess_Decision:0"移除 教育机会加成"
+ RemoveStateEducationAccess_Decision_desc:0""
+
+
+###############################################
+ Open_InterstGroup_Str_Increase_Decision:0"打开[concept_interest_group][concept_political_strength]提升的决议"
+ Open_InterstGroup_Str_Increase_Decision_desc:0""
+ Close_InterstGroup_Str_Increase_Decision:0"关闭[concept_interest_group][concept_political_strength]提升的决议"
+ Close_InterstGroup_Str_Increase_Decision_desc:0""
+
+ AddInterstGroup_Str_Increase_intelligentsia_Modifier_Decision:0"获得 [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的提升"
+ AddInterstGroup_Str_Increase_intelligentsia_Modifier_Decision_desc:0""
+ RemoveInterstGroup_Str_Increase_intelligentsia_Modifier_Decision:0"移除 [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的提升"
+ RemoveInterstGroup_Str_Increase_intelligentsia_Modifier_Decision_desc:0""
+
+ AddInterstGroup_Str_Increase_armed_forces_Modifier_Decision:0"获得 [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的提升"
+ AddInterstGroup_Str_Increase_armed_forces_Modifier_Decision_desc:0""
+ RemoveInterstGroup_Str_Increase_armed_forces_Modifier_Decision:0"移除 [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的提升"
+ RemoveInterstGroup_Str_Increase_armed_forces_Modifier_Decision_desc:0""
+ 
+ AddInterstGroup_Str_Increase_devout_Modifier_Decision:0"获得 [GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的提升"
+ AddInterstGroup_Str_Increase_devout_Modifier_Decision_desc:0""
+ RemoveInterstGroup_Str_Increase_devout_Modifier_Decision:0"移除 [GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的提升"
+ RemoveInterstGroup_Str_Increase_devout_Modifier_Decision_desc:0""
+ 
+ AddInterstGroup_Str_Increase_industrialists_Modifier_Decision:0"获得 [GetInterestGroupVariant('ig_industrialists',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的提升"
+ AddInterstGroup_Str_Increase_industrialists_Modifier_Decision_desc:0""
+ RemoveInterstGroup_Str_Increase_industrialists_Modifier_Decision:0"移除 [GetInterestGroupVariant('ig_industrialists',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的提升"
+ RemoveInterstGroup_Str_Increase_industrialists_Modifier_Decision_desc:0""
+ 
+ AddInterstGroup_Str_Increase_landowners_Modifier_Decision:0"获得 [GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的提升"
+ AddInterstGroup_Str_Increase_landowners_Modifier_Decision_desc:0""
+ RemoveInterstGroup_Str_Increase_landowners_Modifier_Decision:0"移除 [GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的提升"
+ RemoveInterstGroup_Str_Increase_landowners_Modifier_Decision_desc:0""
+ 
+ AddInterstGroup_Str_Increase_petty_bourgeoisie_Modifier_Decision:0"获得 [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的提升"
+ AddInterstGroup_Str_Increase_petty_bourgeoisie_Modifier_Decision_desc:0""
+ RemoveInterstGroup_Str_Increase_petty_bourgeoisie_Modifier_Decision:0"移除 [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的提升"
+ RemoveInterstGroup_Str_Increase_petty_bourgeoisie_Modifier_Decision_desc:0""
+ 
+ AddInterstGroup_Str_Increase_rural_folk_Modifier_Decision:0"获得 [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的提升"
+ AddInterstGroup_Str_Increase_rural_folk_Modifier_Decision_desc:0""
+ RemoveInterstGroup_Str_Increase_rural_folk_Modifier_Decision:0"移除 [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的提升"
+ RemoveInterstGroup_Str_Increase_rural_folk_Modifier_Decision_desc:0""
+ 
+ AddInterstGroup_Str_Increase_trade_unions_Modifier_Decision:0"获得 [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的提升"
+ AddInterstGroup_Str_Increase_trade_unions_Modifier_Decision_desc:0""
+ RemoveInterstGroup_Str_Increase_trade_unions_Modifier_Decision:0"移除 [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的提升"
+ RemoveInterstGroup_Str_Increase_trade_unions_Modifier_Decision_desc:0""
+
+ Open_InterstGroup_Str_Decrease_Decision:0"打开[concept_interest_group][concept_political_strength]降低的决议"
+ Open_InterstGroup_Str_Decrease_Decision_desc:0""
+ Close_InterstGroup_Str_Decrease_Decision:0"关闭[concept_interest_group][concept_political_strength]降低的决议"
+ Close_InterstGroup_Str_Decrease_Decision_desc:0""
+ 
+ AddInterstGroup_Str_Decrease_intelligentsia_Modifier_Decision:0"获得 [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的降低"
+ AddInterstGroup_Str_Decrease_intelligentsia_Modifier_Decision_desc:0""
+ RemoveInterstGroup_Str_Decrease_intelligentsia_Modifier_Decision:0"移除 [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的降低"
+ RemoveInterstGroup_Str_Decrease_intelligentsia_Modifier_Decision_desc:0""
+ 
+ AddInterstGroup_Str_Decrease_armed_forces_Modifier_Decision:0"获得 [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的降低"
+ AddInterstGroup_Str_Decrease_armed_forces_Modifier_Decision_desc:0""
+ RemoveInterstGroup_Str_Decrease_armed_forces_Modifier_Decision:0"移除 [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的降低"
+ RemoveInterstGroup_Str_Decrease_armed_forces_Modifier_Decision_desc:0""
+ 
+ AddInterstGroup_Str_Decrease_devout_Modifier_Decision:0"获得 [GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的降低"
+ AddInterstGroup_Str_Decrease_devout_Modifier_Decision_desc:0""
+ RemoveInterstGroup_Str_Decrease_devout_Modifier_Decision:0"移除 [GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的降低"
+ RemoveInterstGroup_Str_Decrease_devout_Modifier_Decision_desc:0""
+ 
+ AddInterstGroup_Str_Decrease_industrialists_Modifier_Decision:0"获得 [GetInterestGroupVariant('ig_industrialists',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的降低"
+ AddInterstGroup_Str_Decrease_industrialists_Modifier_Decision_desc:0""
+ RemoveInterstGroup_Str_Decrease_industrialists_Modifier_Decision:0"移除 [GetInterestGroupVariant('ig_industrialists',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的降低"
+ RemoveInterstGroup_Str_Decrease_industrialists_Modifier_Decision_desc:0""
+ 
+ AddInterstGroup_Str_Decrease_landowners_Modifier_Decision:0"获得 [GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的降低"
+ AddInterstGroup_Str_Decrease_landowners_Modifier_Decision_desc:0""
+ RemoveInterstGroup_Str_Decrease_landowners_Modifier_Decision:0"移除 [GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的降低"
+ RemoveInterstGroup_Str_Decrease_landowners_Modifier_Decision_desc:0""
+ 
+ AddInterstGroup_Str_Decrease_petty_bourgeoisie_Modifier_Decision:0"获得 [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的降低"
+ AddInterstGroup_Str_Decrease_petty_bourgeoisie_Modifier_Decision_desc:0""
+ RemoveInterstGroup_Str_Decrease_petty_bourgeoisie_Modifier_Decision:0"移除 [GetInterestGroupVariant('ig_petty_bourgeoisie',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的降低"
+ RemoveInterstGroup_Str_Decrease_petty_bourgeoisie_Modifier_Decision_desc:0""
+ 
+ AddInterstGroup_Str_Decrease_rural_folk_Modifier_Decision:0"获得 [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的降低"
+ AddInterstGroup_Str_Decrease_rural_folk_Modifier_Decision_desc:0""
+ RemoveInterstGroup_Str_Decrease_rural_folk_Modifier_Decision:0"移除 [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的降低"
+ RemoveInterstGroup_Str_Decrease_rural_folk_Modifier_Decision_desc:0""
+ 
+ AddInterstGroup_Str_Decrease_trade_unions_Modifier_Decision:0"获得 [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的降低"
+ AddInterstGroup_Str_Decrease_trade_unions_Modifier_Decision_desc:0""
+ RemoveInterstGroup_Str_Decrease_trade_unions_Modifier_Decision:0"移除 [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant] [concept_political_strength]的降低"
+ RemoveInterstGroup_Str_Decrease_trade_unions_Modifier_Decision_desc:0""
+
+ Open_StateExpectedSol_Increase_Decision:0"打开 各阶级[concept_expected_sol]提升的决议"
+ Open_StateExpectedSol_Increase_Decision_desc:0""
+ Close_StateExpectedSol_Increase_Decision:0"关闭 各阶级[concept_expected_sol]提升的决议"
+ Close_StateExpectedSol_Increase_Decision_desc:0""
+ 
+ AddStateExpectedSol_Increase_poor_Modifier_Decision:0"获得 [concept_lower_strata] [concept_expected_sol]的提升"
+ AddStateExpectedSol_Increase_poor_Modifier_Decision_desc:0""
+ RemoveStateExpectedSol_Increase_poor_Modifier_Decision:0"移除 [concept_lower_strata] [concept_expected_sol]的提升"
+ RemoveStateExpectedSol_Increase_poor_Modifier_Decision_desc:0""
+ 
+ AddStateExpectedSol_Increase_middle_Modifier_Decision:0"获得 [concept_middle_strata] [concept_expected_sol]的提升"
+ AddStateExpectedSol_Increase_middle_Modifier_Decision_desc:0""
+ RemoveStateExpectedSol_Increase_middle_Modifier_Decision:0"移除 [concept_middle_strata] [concept_expected_sol]的提升"
+ RemoveStateExpectedSol_Increase_middle_Modifier_Decision_desc:0""
+ 
+ AddStateExpectedSol_Increase_rich_Modifier_Decision:0"获得 [concept_upper_strata] [concept_expected_sol]的提升"
+ AddStateExpectedSol_Increase_rich_Modifier_Decision_desc:0""
+ RemoveStateExpectedSol_Increase_rich_Modifier_Decision:0"移除 [concept_upper_strata] [concept_expected_sol]的提升"
+ RemoveStateExpectedSol_Increase_rich_Modifier_Decision_desc:0""
+ 
+ Open_StateExpectedSol_Decrease_Decision:0"打开 各阶级[concept_expected_sol]降低的决议"
+ Open_StateExpectedSol_Decrease_Decision_desc:0""
+ Close_StateExpectedSol_Decrease_Decision:0"关闭 各阶级[concept_expected_sol]降低的决议"
+ Close_StateExpectedSol_Decrease_Decision_desc:0""
+ 
+ AddStateExpectedSol_Decrease_poor_Modifier_Decision:0"获得 [concept_lower_strata] [concept_expected_sol]的降低"
+ AddStateExpectedSol_Decrease_poor_Modifier_Decision_desc:0""
+ RemoveStateExpectedSol_Decrease_poor_Modifier_Decision:0"移除 [concept_lower_strata] [concept_expected_sol]的降低"
+ RemoveStateExpectedSol_Decrease_poor_Modifier_Decision_desc:0""
+ 
+ AddStateExpectedSol_Decrease_middle_Modifier_Decision:0"获得 [concept_middle_strata] [concept_expected_sol]的降低"
+ AddStateExpectedSol_Decrease_middle_Modifier_Decision_desc:0""
+ RemoveStateExpectedSol_Decrease_middle_Modifier_Decision:0"移除 [concept_middle_strata] [concept_expected_sol]的降低"
+ RemoveStateExpectedSol_Decrease_middle_Modifier_Decision_desc:0""
+ 
+ AddStateExpectedSol_Decrease_rich_Modifier_Decision:0"获得 [concept_upper_strata] [concept_expected_sol]的降低"
+ AddStateExpectedSol_Decrease_rich_Modifier_Decision_desc:0""
+ RemoveStateExpectedSol_Decrease_rich_Modifier_Decision:0"移除 [concept_upper_strata] [concept_expected_sol]的降低"
+ RemoveStateExpectedSol_Decrease_rich_Modifier_Decision_desc:0""
+
+ #####################################################
+ Open_ActivateLaw_Group_Power_Decision:0"打开 权力结构 法律类改变决议"
+ Open_ActivateLaw_Group_Power_Decision_desc:0""
+ Close_ActivateLaw_Group_Power_Decision:0"关闭 权力结构 法律类改变决议"
+ Close_ActivateLaw_Group_Power_Decision_desc:0""
+ 
+ Open_ActivateLaw_Group_Power_governance_principles_Decision:0"打开 治理原则 法律改变决议"
+ Open_ActivateLaw_Group_Power_governance_principles_Decision_desc:0""
+ Close_ActivateLaw_Group_Power_governance_principles_Decision:0"关闭 治理原则 法律改变决议"
+ Close_ActivateLaw_Group_Power_governance_principles_Decision_desc:0""
+ 
+ AddLaw_Group_Power_governance_principles_law_chiefdom_Decision:0"启用 酋邦制 法律"
+ AddLaw_Group_Power_governance_principles_law_chiefdom_Decision_desc:0""
+ AddLaw_Group_Power_governance_principles_law_monarchy_Decision:0"启用 君主制 法律"
+ AddLaw_Group_Power_governance_principles_law_monarchy_Decision_desc:0""
+ AddLaw_Group_Power_governance_principles_law_presidential_republic_Decision:0"启用 总统共和制 法律"
+ AddLaw_Group_Power_governance_principles_law_presidential_republic_Decision_desc:0""
+ AddLaw_Group_Power_governance_principles_law_parliamentary_republic_Decision:0"启用 议会共和制 法律"
+ AddLaw_Group_Power_governance_principles_law_parliamentary_republic_Decision_desc:0""
+ AddLaw_Group_Power_governance_principles_law_theocracy_Decision:0"启用 神权制 法律"
+ AddLaw_Group_Power_governance_principles_law_theocracy_Decision_desc:0""
+ AddLaw_Group_Power_governance_principles_law_council_republic_Decision:0"启用 委员会共和制 法律"
+ AddLaw_Group_Power_governance_principles_law_council_republic_Decision_desc:0""
+ 
+ Open_ActivateLaw_Group_Power_distribution_of_power_Decision:0"打开 权力分配 法律改变决议"
+ Open_ActivateLaw_Group_Power_distribution_of_power_Decision_desc:0""
+ Close_ActivateLaw_Group_Power_distribution_of_power_Decision:0"关闭 权力分配 法律改变决议"
+ Close_ActivateLaw_Group_Power_distribution_of_power_Decision_desc:0""
+ 
+ AddLaw_Group_Power_distribution_of_power_law_autocracy_Decision:0"启用 独裁制 法律"
+ AddLaw_Group_Power_distribution_of_power_law_autocracy_Decision_desc:0""
+ AddLaw_Group_Power_distribution_of_power_law_oligarchy_Decision:0"启用 寡头制 法律"
+ AddLaw_Group_Power_distribution_of_power_law_oligarchy_Decision_desc:0""
+ AddLaw_Group_Power_distribution_of_power_law_landed_voting_Decision:0"启用 地产投票 法律"
+ AddLaw_Group_Power_distribution_of_power_law_landed_voting_Decision_desc:0""
+ AddLaw_Group_Power_distribution_of_power_law_wealth_voting_Decision:0"启用 财产投票 法律"
+ AddLaw_Group_Power_distribution_of_power_law_wealth_voting_Decision_desc:0""
+ AddLaw_Group_Power_distribution_of_power_law_census_voting_Decision:0"启用 资格性选举制 法律"
+ AddLaw_Group_Power_distribution_of_power_law_census_voting_Decision_desc:0""
+ AddLaw_Group_Power_distribution_of_power_law_universal_suffrage_Decision:0"启用 普选制 法律"
+ AddLaw_Group_Power_distribution_of_power_law_universal_suffrage_Decision_desc:0""
+ AddLaw_Group_Power_distribution_of_power_law_elder_council_Decision:0"启用 长老议会 法律"
+ AddLaw_Group_Power_distribution_of_power_law_elder_council_Decision_desc:0""
+ AddLaw_Group_Power_distribution_of_power_law_anarchy_Decision:0"启用 无政府 法律"
+ AddLaw_Group_Power_distribution_of_power_law_anarchy_Decision_desc:0""
+ 
+ Open_ActivateLaw_Group_Power_citizenship_Decision:0"打开 公民权 法律改变决议"
+ Open_ActivateLaw_Group_Power_citizenship_Decision_desc:0""
+ Close_ActivateLaw_Group_Power_citizenship_Decision:0"关闭 公民权 法律改变决议"
+ Close_ActivateLaw_Group_Power_citizenship_Decision_desc:0""
+ 
+ AddLaw_Group_Power_citizenship_law_ethnostate_Decision:0"启用 民族国家 法律"
+ AddLaw_Group_Power_citizenship_law_ethnostate_Decision_desc:0""
+ AddLaw_Group_Power_citizenship_law_national_supremacy_Decision:0"启用 民族至上 法律"
+ AddLaw_Group_Power_citizenship_law_national_supremacy_Decision_desc:0""
+ AddLaw_Group_Power_citizenship_law_racial_segregation_Decision:0"启用 种族隔离 法律"
+ AddLaw_Group_Power_citizenship_law_racial_segregation_Decision_desc:0""
+ AddLaw_Group_Power_citizenship_law_cultural_exclusion_Decision:0"启用 文化排斥 法律"
+ AddLaw_Group_Power_citizenship_law_cultural_exclusion_Decision_desc:0""
+ AddLaw_Group_Power_citizenship_law_multicultural_Decision:0"启用 文化多元 法律"
+ AddLaw_Group_Power_citizenship_law_multicultural_Decision_desc:0""
+ 
+ Open_ActivateLaw_Group_Power_church_and_state_Decision:0"打开 教会与国家 法律改变决议"
+ Open_ActivateLaw_Group_Power_church_and_state_Decision_desc:0""
+ Close_ActivateLaw_Group_Power_church_and_state_Decision:0"关闭 教会与国家 法律改变决议"
+ Close_ActivateLaw_Group_Power_church_and_state_Decision_desc:0""
+ 
+ AddLaw_Group_Power_church_and_state_law_state_religion_Decision:0"启用 国教 法律"
+ AddLaw_Group_Power_church_and_state_law_state_religion_Decision_desc:0""
+ AddLaw_Group_Power_church_and_state_law_freedom_of_conscience_Decision:0"启用 信仰自由 法律"
+ AddLaw_Group_Power_church_and_state_law_freedom_of_conscience_Decision_desc:0""
+ AddLaw_Group_Power_church_and_state_law_total_separation_Decision:0"启用 完全分离 法律"
+ AddLaw_Group_Power_church_and_state_law_total_separation_Decision_desc:0""
+ AddLaw_Group_Power_church_and_state_law_atheist_state_Decision:0"启用 无神论国家 法律"
+ AddLaw_Group_Power_church_and_state_law_atheist_state_Decision_desc:0""
+ 
+ Open_ActivateLaw_Group_Power_bureaucracy_Decision:0"打开 官僚体制 法律改变决议"
+ Open_ActivateLaw_Group_Power_bureaucracy_Decision_desc:0""
+ Close_ActivateLaw_Group_Power_bureaucracy_Decision:0"关闭 官僚体制 法律改变决议"
+ Close_ActivateLaw_Group_Power_bureaucracy_Decision_desc:0""
+ 
+ AddLaw_Group_Power_bureaucracy_law_hereditary_bureaucrats_Decision:0"启用 世袭官僚制 法律"
+ AddLaw_Group_Power_bureaucracy_law_hereditary_bureaucrats_Decision_desc:0""
+ AddLaw_Group_Power_bureaucracy_law_appointed_bureaucrats_Decision:0"启用 任命官僚制 法律"
+ AddLaw_Group_Power_bureaucracy_law_appointed_bureaucrats_Decision_desc:0""
+ AddLaw_Group_Power_bureaucracy_law_meritocratic_bureaucracy_Decision:0"启用 贤能官僚制 法律"
+ AddLaw_Group_Power_bureaucracy_law_meritocratic_bureaucracy_Decision_desc:0""
+ AddLaw_Group_Power_bureaucracy_law_elected_bureaucrats_Decision:0"启用 选举官僚制 法律"
+ AddLaw_Group_Power_bureaucracy_law_elected_bureaucrats_Decision_desc:0""
+ 
+ Open_ActivateLaw_Group_Power_army_model_Decision:0"打开 军队类型 法律改变决议"
+ Open_ActivateLaw_Group_Power_army_model_Decision_desc:0""
+ Close_ActivateLaw_Group_Power_army_model_Decision:0"关闭 军队类型 法律改变决议"
+ Close_ActivateLaw_Group_Power_army_model_Decision_desc:0""
+ 
+ AddLaw_Group_Power_army_model_law_peasant_levies_Decision:0"启用 征召农兵 法律"
+ AddLaw_Group_Power_army_model_law_peasant_levies_Decision_desc:0""
+ AddLaw_Group_Power_army_model_law_professional_army_Decision:0"启用 职业军队 法律"
+ AddLaw_Group_Power_army_model_law_professional_army_Decision_desc:0""
+ AddLaw_Group_Power_army_model_law_national_militia_Decision:0"启用 国家民兵 法律"
+ AddLaw_Group_Power_army_model_law_national_militia_Decision_desc:0""
+ AddLaw_Group_Power_army_model_law_mass_conscription_Decision:0"启用 大规模征兵 法律"
+ AddLaw_Group_Power_army_model_law_mass_conscription_Decision_desc:0""
+ 
+ Open_ActivateLaw_Group_Power_internal_security_Decision:0"打开 国内安全 法律改变决议"
+ Open_ActivateLaw_Group_Power_internal_security_Decision_desc:0""
+ Close_ActivateLaw_Group_Power_internal_security_Decision:0"关闭 国内安全 法律改变决议"
+ Close_ActivateLaw_Group_Power_internal_security_Decision_desc:0""
+ 
+ AddLaw_Group_Power_internal_security_law_no_home_affairs_Decision:0"启用 无内务机构 法律"
+ AddLaw_Group_Power_internal_security_law_no_home_affairs_Decision_desc:0""
+ AddLaw_Group_Power_internal_security_law_national_guard_Decision:0"启用 国民警卫队 法律"
+ AddLaw_Group_Power_internal_security_law_national_guard_Decision_desc:0""
+ AddLaw_Group_Power_internal_security_law_secret_police_Decision:0"启用 秘密警察 法律"
+ AddLaw_Group_Power_internal_security_law_secret_police_Decision_desc:0""
+ AddLaw_Group_Power_internal_security_law_guaranteed_liberties_Decision:0"启用 保障自由 法律"
+ AddLaw_Group_Power_internal_security_law_guaranteed_liberties_Decision_desc:0""
+ #####################################################
+ Open_ActivateLaw_Group_Economic_Decision:0"打开 经济 法律类改变决议"
+ Open_ActivateLaw_Group_Economic_Decision_desc:0""
+ Close_ActivateLaw_Group_Economic_Decision:0"关闭 经济 法律类改变决议"
+ Close_ActivateLaw_Group_Economic_Decision_desc:0""
+ 
+ Open_ActivateLaw_economic_system_Decision:0"打开 经济体制 法律改变决议"
+ Open_ActivateLaw_economic_system_Decision_desc:0""
+ Close_ActivateLaw_economic_system_Decision:0"关闭 经济体制 法律改变决议"
+ Close_ActivateLaw_economic_system_Decision_desc:0""
+ 
+ AddLaw_Group_Economic_economic_system_law_traditionalism_Decision:0"启用 传统主义 法律"
+ AddLaw_Group_Economic_economic_system_law_traditionalism_Decision_desc:0""
+ AddLaw_Group_Economic_economic_system_law_agrarianism_Decision:0"启用 农本主义 法律"
+ AddLaw_Group_Economic_economic_system_law_agrarianism_Decision_desc:0""
+ AddLaw_Group_Economic_economic_system_law_command_economy_Decision:0"启用 计划经济 法律"
+ AddLaw_Group_Economic_economic_system_law_command_economy_Decision_desc:0""
+ AddLaw_Group_Economic_economic_system_law_laissez_faire_Decision:0"启用 自由放任 法律"
+ AddLaw_Group_Economic_economic_system_law_laissez_faire_Decision_desc:0""
+ AddLaw_Group_Economic_economic_system_law_interventionism_Decision:0"启用 经济干预 法律"
+ AddLaw_Group_Economic_economic_system_law_interventionism_Decision_desc:0""
+ 
+ Open_ActivateLaw_Group_Economic_trade_policy_system_Decision:0"打开 贸易政策 法律改变决议"
+ Open_ActivateLaw_Group_Economic_trade_policy_system_Decision_desc:0""
+ Close_ActivateLaw_Group_Economic_trade_policy_system_Decision:0"关闭 贸易政策 法律改变决议"
+ Close_ActivateLaw_Group_Economic_trade_policy_system_Decision_desc:0""
+ 
+ AddLaw_Group_Economic_trade_policy_law_free_trade_Decision:0"启用 自由贸易 法律"
+ AddLaw_Group_Economic_trade_policy_law_free_trade_Decision_desc:0""
+ AddLaw_Group_Economic_trade_policy_law_protectionism_Decision:0"启用 贸易保护 法律"
+ AddLaw_Group_Economic_trade_policy_law_protectionism_Decision_desc:0""
+ AddLaw_Group_Economic_trade_policy_law_isolationism_Decision:0"启用 孤立主义 法律"
+ AddLaw_Group_Economic_trade_policy_law_isolationism_Decision_desc:0""
+ AddLaw_Group_Economic_trade_policy_law_mercantilism_Decision:0"启用 重商主义 法律"
+ AddLaw_Group_Economic_trade_policy_law_mercantilism_Decision_desc:0""
+ 
+ Open_ActivateLaw_Group_Economic_taxation_system_Decision:0"打开 赋税 法律改变决议"
+ Open_ActivateLaw_Group_Economic_taxation_system_Decision_desc:0""
+ Close_ActivateLaw_Group_Economic_taxation_system_Decision:0"关闭 赋税 法律改变决议"
+ Close_ActivateLaw_Group_Economic_taxation_system_Decision_desc:0""
+ 
+ AddLaw_Group_Economic_economic_system_law_consumption_based_taxation_Decision:0"启用 消费税制 法律"
+ AddLaw_Group_Economic_economic_system_law_consumption_based_taxation_Decision_desc:0""
+ AddLaw_Group_Economic_economic_system_law_land_based_taxation_Decision:0"启用 土地税制 法律"
+ AddLaw_Group_Economic_economic_system_law_land_based_taxation_Decision_desc:0""
+ AddLaw_Group_Economic_economic_system_law_per_capita_based_taxation_Decision:0"启用 人均税制 法律"
+ AddLaw_Group_Economic_economic_system_law_per_capita_based_taxation_Decision_desc:0""
+ AddLaw_Group_Economic_economic_system_law_proportional_taxation_Decision:0"启用 比例税制 法律"
+ AddLaw_Group_Economic_economic_system_law_proportional_taxation_Decision_desc:0""
+ AddLaw_Group_Economic_economic_system_law_graduated_taxation_Decision:0"启用 累进税制 法律"
+ AddLaw_Group_Economic_economic_system_law_graduated_taxation_Decision_desc:0""
+
+ Open_ActivateLaw_Group_Economic_colonization_system_Decision:0"打开 殖民机构 法律改变决议"
+ Open_ActivateLaw_Group_Economic_colonization_system_Decision_desc:0""
+ Close_ActivateLaw_Group_Economic_colonization_system_Decision:0"关闭 殖民机构 法律改变决议"
+ Close_ActivateLaw_Group_Economic_colonization_system_Decision_desc:0""
+ 
+ AddLaw_Group_Economic_colonization_law_no_colonial_affairs_Decision:0"启用 无殖民事务 法律"
+ AddLaw_Group_Economic_colonization_law_no_colonial_affairs_Decision_desc:0""
+ AddLaw_Group_Economic_colonization_law_colonial_resettlement_Decision:0"启用 殖民安置 法律"
+ AddLaw_Group_Economic_colonization_law_colonial_resettlement_Decision_desc:0""
+ AddLaw_Group_Economic_colonization_law_colonial_exploitation_Decision:0"启用 殖民剥削 法律"
+ AddLaw_Group_Economic_colonization_law_colonial_exploitation_Decision_desc:0""
+ 
+ Open_ActivateLaw_Group_Economic_policing_system_Decision:0"打开 警察机构 法律改变决议"
+ Open_ActivateLaw_Group_Economic_policing_system_Decision_desc:0""
+ Close_ActivateLaw_Group_Economic_policing_system_Decision:0"关闭 警察机构 法律改变决议"
+ Close_ActivateLaw_Group_Economic_policing_system_Decision_desc:0""
+ 
+ AddLaw_Group_Economic_policing_law_no_police_Decision:0"启用 无警察 法律"
+ AddLaw_Group_Economic_policing_law_no_police_Decision_desc:0""
+ AddLaw_Group_Economic_policing_law_local_police_Decision:0"启用 地方警察部队 法律"
+ AddLaw_Group_Economic_policing_law_local_police_Decision_desc:0""
+ AddLaw_Group_Economic_policing_law_dedicated_police_Decision:0"启用 专职警察部队 法律"
+ AddLaw_Group_Economic_policing_law_dedicated_police_Decision_desc:0""
+ AddLaw_Group_Economic_policing_law_militarized_police_Decision:0"启用 军事化警察部队 法律"
+ AddLaw_Group_Economic_policing_law_militarized_police_Decision_desc:0""
+ 
+ Open_ActivateLaw_Group_Economic_education_system_Decision:0"打开 教育体制 法律改变决议"
+ Open_ActivateLaw_Group_Economic_education_system_Decision_desc:0""
+ Close_ActivateLaw_Group_Economic_education_system_Decision:0"关闭 教育体制 法律改变决议"
+ Close_ActivateLaw_Group_Economic_education_system_Decision_desc:0""
+ 
+ AddLaw_Group_Economic_education_system_law_no_schools_Decision:0"启用 无学校 法律"
+ AddLaw_Group_Economic_education_system_law_no_schools_Decision_desc:0""
+ AddLaw_Group_Economic_education_system_law_religious_schools_Decision:0"启用 教会学校 法律"
+ AddLaw_Group_Economic_education_system_law_religious_schools_Decision_desc:0""
+ AddLaw_Group_Economic_education_system_law_private_schools_Decision:0"启用 私立学校 法律"
+ AddLaw_Group_Economic_education_system_law_private_schools_Decision_desc:0""
+ AddLaw_Group_Economic_education_system_law_public_schools_Decision:0"启用 公立学校 法律"
+ AddLaw_Group_Economic_education_system_law_public_schools_Decision_desc:0""
+ 
+ Open_ActivateLaw_Group_Economic_health_system_Decision:0"打开 卫生系统 法律改变决议"
+ Open_ActivateLaw_Group_Economic_health_system_Decision_desc:0""
+ Close_ActivateLaw_Group_Economic_health_system_Decision:0"关闭 卫生系统 法律改变决议"
+ Close_ActivateLaw_Group_Economic_health_system_Decision_desc:0""
+ 
+ AddLaw_Group_Economic_health_system_law_no_health_system_Decision:0"启用 无卫生系统 法律"
+ AddLaw_Group_Economic_health_system_law_no_health_system_Decision_desc:0""
+ AddLaw_Group_Economic_health_system_law_charitable_health_system_Decision:0"启用 慈善医院 法律"
+ AddLaw_Group_Economic_health_system_law_charitable_health_system_Decision_desc:0""
+ AddLaw_Group_Economic_health_system_law_private_health_insurance_Decision:0"启用 私人医疗保险 法律"
+ AddLaw_Group_Economic_health_system_law_private_health_insurance_Decision_desc:0""
+ AddLaw_Group_Economic_health_system_law_public_health_insurance_Decision:0"启用 公共医疗保险 法律"
+ AddLaw_Group_Economic_health_system_law_public_health_insurance_Decision_desc:0""
+####################################################
+ Open_ActivateLaw_Group_HumanRights_Decision:0"打开 人权 法律类改变决议"
+ Open_ActivateLaw_Group_HumanRights_Decision_desc:0""
+ Close_ActivateLaw_Group_HumanRights_Decision:0"关闭 人权 法律类改变决议"
+ Close_ActivateLaw_Group_HumanRights_Decision_desc:0""
+ 
+ Open_ActivateLaw_Group_HumanRights_free_speech_Decision:0"打开 言论自由 法律改变决议"
+ Open_ActivateLaw_Group_HumanRights_free_speech_Decision_desc:0""
+ Close_ActivateLaw_Group_HumanRights_free_speech_Decision:0"关闭 言论自由 法律改变决议"
+ Close_ActivateLaw_Group_HumanRights_free_speech_Decision_desc:0""
+ 
+ AddLaw_Group_HumanRights_free_speech_law_outlawed_dissent_Decision:0"启用 异议非法 法律"
+ AddLaw_Group_HumanRights_free_speech_law_outlawed_dissent_Decision_desc:0""
+ AddLaw_Group_HumanRights_free_speech_law_censorship_Decision:0"启用 出版物审查 法律"
+ AddLaw_Group_HumanRights_free_speech_law_censorship_Decision_desc:0""
+ AddLaw_Group_HumanRights_free_speech_law_right_of_assembly_Decision:0"启用 集会权 法律"
+ AddLaw_Group_HumanRights_free_speech_law_right_of_assembly_Decision_desc:0""
+ AddLaw_Group_HumanRights_free_speech_law_protected_speech_Decision:0"启用 言论保护 法律"
+ AddLaw_Group_HumanRights_free_speech_law_protected_speech_Decision_desc:0""
+ 
+ Open_ActivateLaw_Group_HumanRights_labor_rights_Decision:0"打开 劳动者权益 法律改变决议"
+ Open_ActivateLaw_Group_HumanRights_labor_rights_Decision_desc:0""
+ Close_ActivateLaw_Group_HumanRights_labor_rights_Decision:0"关闭 劳动者权益 法律改变决议"
+ Close_ActivateLaw_Group_HumanRights_labor_rights_Decision_desc:0""
+ 
+ AddLaw_Group_HumanRights_labor_rights_law_serfdom_Decision:0"启用 农奴制 法律"
+ AddLaw_Group_HumanRights_labor_rights_law_serfdom_Decision_desc:0""
+ AddLaw_Group_HumanRights_labor_rights_law_serfdom_banned_Decision:0"启用 废除农奴制 法律"
+ AddLaw_Group_HumanRights_labor_rights_law_serfdom_banned_Decision_desc:0""
+ AddLaw_Group_HumanRights_labor_rights_law_regulatory_bodies_Decision:0"启用 监管机构 法律"
+ AddLaw_Group_HumanRights_labor_rights_law_regulatory_bodies_Decision_desc:0""
+ AddLaw_Group_HumanRights_labor_rights_law_worker_protections_Decision:0"启用 工人保障 法律"
+ AddLaw_Group_HumanRights_labor_rights_law_worker_protections_Decision_desc:0""
+ 
+ Open_ActivateLaw_Group_HumanRights_childrens_rights_Decision:0"打开 儿童权利 法律改变决议"
+ Open_ActivateLaw_Group_HumanRights_childrens_rights_Decision_desc:0""
+ Close_ActivateLaw_Group_HumanRights_childrens_rights_Decision:0"关闭 儿童权利 法律改变决议"
+ Close_ActivateLaw_Group_HumanRights_childrens_rights_Decision_desc:0""
+ 
+ AddLaw_Group_HumanRights_childrens_rights_law_child_labor_allowed_Decision:0"启用 允许童工 法律"
+ AddLaw_Group_HumanRights_childrens_rights_law_child_labor_allowed_Decision_desc:0""
+ AddLaw_Group_HumanRights_childrens_rights_law_restricted_child_labor_Decision:0"启用 限制童工 法律"
+ AddLaw_Group_HumanRights_childrens_rights_law_restricted_child_labor_Decision_desc:0""
+ AddLaw_Group_HumanRights_childrens_rights_law_compulsory_primary_school_Decision:0"启用 义务小学 法律"
+ AddLaw_Group_HumanRights_childrens_rights_law_compulsory_primary_school_Decision_desc:0""
+ 
+ Open_ActivateLaw_Group_HumanRights_rights_of_women_Decision:0"打开 女性权利 法律改变决议"
+ Open_ActivateLaw_Group_HumanRights_rights_of_women_Decision_desc:0""
+ Close_ActivateLaw_Group_HumanRights_rights_of_women_Decision:0"关闭 女性权利 法律改变决议"
+ Close_ActivateLaw_Group_HumanRights_rights_of_women_Decision_desc:0""
+ 
+ AddLaw_Group_HumanRights_rights_of_women_law_no_womens_rights_Decision:0"启用 法定监护 法律"
+ AddLaw_Group_HumanRights_rights_of_women_law_no_womens_rights_Decision_desc:0""
+ AddLaw_Group_HumanRights_rights_of_women_law_women_own_property_Decision:0"启用 有产妇女 法律"
+ AddLaw_Group_HumanRights_rights_of_women_law_women_own_property_Decision_desc:0""
+ AddLaw_Group_HumanRights_rights_of_women_law_women_in_the_workplace_Decision:0"启用 女性工作 法律"
+ AddLaw_Group_HumanRights_rights_of_women_law_women_in_the_workplace_Decision_desc:0""
+ AddLaw_Group_HumanRights_rights_of_women_law_womens_suffrage_Decision:0"启用 妇女选举权 法律"
+ AddLaw_Group_HumanRights_rights_of_women_law_womens_suffrage_Decision_desc:0""
+ 
+ Open_ActivateLaw_Group_HumanRights_welfare_Decision:0"打开 社会福利 法律改变决议"
+ Open_ActivateLaw_Group_HumanRights_welfare_Decision_desc:0""
+ Close_ActivateLaw_Group_HumanRights_welfare_Decision:0"关闭 社会福利 法律改变决议"
+ Close_ActivateLaw_Group_HumanRights_welfare_Decision_desc:0""
+ 
+ AddLaw_Group_HumanRights_welfare_law_no_social_security_Decision:0"启用 无社会保障 法律"
+ AddLaw_Group_HumanRights_welfare_law_no_social_security_Decision_desc:0""
+ AddLaw_Group_HumanRights_welfare_law_poor_laws_Decision:0"启用 济贫法 法律"
+ AddLaw_Group_HumanRights_welfare_law_poor_laws_Decision_desc:0""
+ AddLaw_Group_HumanRights_welfare_law_wage_subsidies_Decision:0"启用 工资补贴 法律"
+ AddLaw_Group_HumanRights_welfare_law_wage_subsidies_Decision_desc:0""
+ AddLaw_Group_HumanRights_welfare_law_old_age_pension_Decision:0"启用 养老金 法律"
+ AddLaw_Group_HumanRights_welfare_law_old_age_pension_Decision_desc:0""
+ AddLaw_Group_HumanRights_welfare_law_disability_insurance_Decision:0"启用 伤残险 法律"
+ AddLaw_Group_HumanRights_welfare_law_disability_insurance_Decision_desc:0""
+ 
+ Open_ActivateLaw_Group_HumanRights_migration_Decision:0"打开 移民制度 法律改变决议"
+ Open_ActivateLaw_Group_HumanRights_migration_Decision_desc:0""
+ Close_ActivateLaw_Group_HumanRights_migration_Decision:0"关闭 移民制度 法律改变决议"
+ Close_ActivateLaw_Group_HumanRights_migration_Decision_desc:0""
+ 
+ AddLaw_Group_HumanRights_migration_law_no_migration_controls_Decision:0"启用 无移民控制 法律"
+ AddLaw_Group_HumanRights_migration_law_no_migration_controls_Decision_desc:0""
+ AddLaw_Group_HumanRights_migration_law_migration_controls_Decision:0"启用 移民控制 法律"
+ AddLaw_Group_HumanRights_migration_law_migration_controls_Decision_desc:0""
+ AddLaw_Group_HumanRights_migration_law_closed_borders_Decision:0"启用 关闭边境 法律"
+ AddLaw_Group_HumanRights_migration_law_closed_borders_Decision_desc:0""
+ 
+ Open_ActivateLaw_Group_HumanRights_slavery_Decision:0"打开 奴隶制 法律改变决议"
+ Open_ActivateLaw_Group_HumanRights_slavery_Decision_desc:0""
+ Close_ActivateLaw_Group_HumanRights_slavery_Decision:0"关闭 奴隶制 法律改变决议"
+ Close_ActivateLaw_Group_HumanRights_slavery_Decision_desc:0""
+ 
+ AddLaw_Group_HumanRights_slavery_law_slavery_banned_Decision:0"启用 禁止蓄奴 法律"
+ AddLaw_Group_HumanRights_slavery_law_slavery_banned_Decision_desc:0""
+ AddLaw_Group_HumanRights_slavery_law_debt_slavery_Decision:0"启用 债务奴隶制 法律"
+ AddLaw_Group_HumanRights_slavery_law_debt_slavery_Decision_desc:0""
+ AddLaw_Group_HumanRights_slavery_law_slave_trade_Decision:0"启用 奴隶贸易 法律"
+ AddLaw_Group_HumanRights_slavery_law_slave_trade_Decision_desc:0""
+ AddLaw_Group_HumanRights_slavery_law_legacy_slavery_Decision:0"启用 遗留奴隶制 法律"
+ AddLaw_Group_HumanRights_slavery_law_legacy_slavery_Decision_desc:0""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #Modifier:
+ DecisionCheat_CountryInfamyDecayDreaseModifier:0"恶名衰减加快"
+ DecisionCheat_CountryInfamyDecayIneaseModifier:0"恶名衰减减缓"
+
+ DecisionCheat_StateAssimilationModifier:0"同化加成"
+ DecisionCheat_CountryTaxIncomeBonusModifier:0"赋税能力加成"
+ DecisionCheat_CountryLegitimacyBaseBonusModifier:0"合法性加成"
+ DecisionCheat_BuildingMinesBonusModifier:0"资源产业加成"
+ DecisionCheat_BuildingFarmsBonusModifier:0"农业加成"
+ DecisionCheat_CountryLawEnactmentTimeModifier:0"立法时间减少"
+
+ DecisionCheat_CountryConstructionModifier:0"建筑力增加"
+ DecisionCheat_StateTaxCapacityAddModifier:0"征税能力增加"
+ DecisionCheat_StateInfrastructureAddModifier:0"基础设施增加"
+
+ DecisionCheat_StateConstructionModifier:0"地区建造效率提升"
+ DecisionCheat_CountryBureaucracyModifier:0"基础行政力增加"
+ DecisionCheat_CountryAuthorityModifier:0"基础权威力增加"
+ DecisionCheat_CountryInfluenceModifier:0"基础影响力增加"
+ DecisionCheat_WeeklyInnovationModifier:0"每周创新力增加"
+ DecisionCheat_StateBirthRateModifier:0"出生率增加"
+ DecisionCheat_MigrationPullModifier:0"移民吸引力增加"
+ DecisionCheat_InterestGroupApprovalModifier:0"利益集团支持度增加"
+ DecisionCheat_CountryPrestigeModifier:0"国家威望增加"
+ DecisionCheat_UnityArmyBonusModifier:0"陆军加成"
+ DecisionCheat_UnityNavyBonusModifier:0"海军加成"
+ 
+ DecisionCheat_StateStandardOfLivingModifier:0"生活水平加成"
+ DecisionCheat_StatePopQualificationModifier:0"资质加成"
+ DecisionCheat_ColonyGrowthModifier:0"殖民地增长加成"
+ DecisionCheat_StateEducationAccessModifier:0"教育机会加成"
+
+
+ DecisionCheat_InterestGroup_IG_armed_forces_Pol_Str_Increase_Modifier:0"军队政治力量提升"
+ DecisionCheat_InterestGroup_IG_armed_forces_Pol_Str_Decrease_Modifier:0"军队政治力量降低"
+ DecisionCheat_InterestGroup_IG_intelligentsia_Pol_Str_Increase_Modifier:0"知识分子政治力量提升"
+ DecisionCheat_InterestGroup_IG_intelligentsia_Pol_Str_Decrease_Modifier:0"知识分子政治力量降低"
+ DecisionCheat_InterestGroup_IG_devout_Pol_Str_Increase_Modifier:0"虔诚者政治力量提升"
+ DecisionCheat_InterestGroup_IG_devout_Pol_Str_Decrease_Modifier:0"虔诚者政治力量降低"
+ DecisionCheat_InterestGroup_IG_industrialists_Pol_Str_Increase_Modifier:0"实业家政治力量提升"
+ DecisionCheat_InterestGroup_IG_industrialists_Pol_Str_Decrease_Modifier:0"实业家政治力量降低"
+ DecisionCheat_InterestGroup_IG_landowners_Pol_Str_Increase_Modifier:0"地主政治力量提升"
+ DecisionCheat_InterestGroup_IG_landowners_Pol_Str_Decrease_Modifier:0"地主政治力量降低"
+ DecisionCheat_InterestGroup_IG_petty_bourgeoisie_Pol_Str_Increase_Modifier:0"小市民政治力量提升"
+ DecisionCheat_InterestGroup_IG_petty_bourgeoisie_Pol_Str_Decrease_Modifier:0"小市民政治力量降低"
+ DecisionCheat_InterestGroup_IG_rural_folk_Pol_Str_Increase_Modifier:0"乡村民众政治力量提升"
+ DecisionCheat_InterestGroup_IG_rural_folk_Pol_Str_Decrease_Modifier:0"乡村民众政治力量降低"
+ DecisionCheat_InterestGroup_IG_trade_unions_Pol_Str_Increase_Modifier:0"工会政治力量提升"
+ DecisionCheat_InterestGroup_IG_trade_unions_Pol_Str_Decrease_Modifier:0"工会政治力量降低"
+ 
+ DecisionCheat_StateExpectedSol_poor_Increase_Modifier:0"下等阶层最低生活水平预期提升"
+ DecisionCheat_StateExpectedSol_poor_Decrease_Modifier:0"下等阶层最低生活水平预期降低"
+ DecisionCheat_StateExpectedSol_middle_Increase_Modifier:0"中等阶层最低生活水平预期提升"
+ DecisionCheat_StateExpectedSol_middle_Decrease_Modifier:0"中等阶层最低生活水平预期降低"
+ DecisionCheat_StateExpectedSol_rich_Increase_Modifier:0"上等阶层最低生活水平预期提升"
+ DecisionCheat_StateExpectedSol_rich_Decrease_Modifier:0"上等阶层最低生活水平预期降低"
+ 
+ DecisionCheatDecree_MarkState:0"作弊决议的标记法令"
+ DecisionCheatDecree_MarkState_desc:0"标记这个地区"

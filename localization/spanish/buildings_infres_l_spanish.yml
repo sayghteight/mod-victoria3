@@ -1,0 +1,32 @@
+﻿l_spanish:
+ building_infres_banana_plantation:0 "Inf. Banana Plantations"
+ building_infres_coffee_plantation:0 "Inf. Coffee Plantations"
+ building_infres_cotton_plantation:0 "Inf. Cotton Plantations"
+ building_infres_dye_plantation:0 "Inf. Dye Plantations"
+ building_infres_opium_plantation:0 "Inf. Opium Plantations"
+ building_infres_rubber_plantation:0 "Inf. Rubber Plantations"
+ building_infres_silk_plantation:0 "Inf. Silk Plantations"
+ building_infres_sugar_plantation:0 "Inf. Sugar Plantations"
+ building_infres_tea_plantation:0 "Inf. Tea Plantations"
+ building_infres_tobacco_plantation:0 "Inf. Tobacco Plantations"
+
+ building_infres_rye_farm:0 "Inf. Rye Farms"
+ building_infres_wheat_farm:0 "Inf. Wheat Farms"
+ building_infres_rice_farm:0 "Inf. Rice Farms"
+ building_infres_maize_farm:0 "Inf. Maize Farms"
+ building_infres_millet_farm:0 "Inf. Millet Farms"
+ building_infres_livestock_ranch:0 "Inf. Livestock Ranches"
+
+ building_infres_coal_mine:0 "Inf. Coal Mines"
+ building_infres_gold_fields:0 "Inf. Gold Fields"
+ building_infres_gold_mine:0 "Inf. Gold Mines"
+ building_infres_iron_mine:0 "Inf. Iron Mines"
+ building_infres_lead_mine:0 "Inf. Lead Mines"
+ building_infres_sulfur_mine:0 "Inf. Sulfur Mines"
+ building_infres_oil_rig:0 "Inf. Oil Rigs"
+
+ building_infres_logging_camp:0 "Inf. Logging Camps"
+ building_infres_fishing_wharf:0 "Inf. Fishing Wharves"
+ building_infres_whaling_station:0 "Inf. Whaling Stations"
+
+ building_infres_naval_base:0 "Inf. Naval Base"

@@ -1,0 +1,110 @@
+﻿l_spanish:
+ LOT:0 "Lotaringia"
+ LOT_ADJ:0 "Lotaringia"
+ 
+ EUR:0 "Federación Europea"
+ EUR_ADJ:0 "Europa"
+ dyn_c_european_empire: "Imperio Europeo"
+ dyn_c_socialist_republic_of_europe: "República Europea Socialista"
+ dyn_c_free_europe: "Europa Libre"
+ dyn_c_european_state: "Estado Europeo"
+ dyn_c_holy_european_order: "Sacra Orden Europea"
+
+ 
+ WGR:0 "Alemanes de Volga"
+ WGR_ADJ:0 "Volga Aleman"
+ dyn_c_volga_socialist_republic: "República socialista de Volga "
+ dyn_c_far_east_german_state: "Estado de Alemania del Lejano Oriente"
+ 
+ BNL:0 "Benelux"
+ BNL_ADJ:0 "Beneluxian"
+ 
+ CEL:0 "Celtica"
+ CEL_ADJ:0 "Celtic"
+ 
+ INC:0 "Inca"
+ INC_ADJ:0 "Inca"
+ 
+ ZAP:0 "Zapadoslavia"
+ ZAP_ADJ:0 "Zapadoslavian"
+ 
+ STP:0 "San Petersbugo"
+ STP_ADJ:0 "Petrogrado"
+ 
+ ING:0 "Ingria"
+ ING_ADJ:0 "Ingrian"
+ 
+ PAI:0 "Paris"
+ PAI_ADJ:0 "Parisino"
+ 
+ CNW:0 "Cornwall"
+ CNW_ADJ:0 "Cornwallian"
+ 
+ CRT:0 "Cartago"
+ CRT_ADJ:0 "Cartagines"
+ dyn_c_kingdom_crt: "Reino de Cartago"
+ dyn_c_crt_socialist_republics: "República socialista de Cartago"
+ dyn_c_crt_free_states: "Estados libres cartaginenses"
+ dyn_c_caribbean_state: "Gran Cartago"
+ 
+ 
+ CRB:0 "Federación Caribeña"
+ CRB_ADJ:0 "Caribeños"
+ dyn_c_kingdom_of_the_caribbean: "Reino Caribeño"
+ dyn_c_caribbean_socialist_republics: "Republica Caribeña Socialista"
+ dyn_c_caribbean_free_states: "Estados libres Caribeños"
+ dyn_c_caribbean_state: "Estado Caribeño"
+ 
+ HRE:0 "Sacro Imperio Romano-Germánico"
+ HRE_ADJ:0 "Sacro romano"
+ dyn_c_holy_roman_republic: "República del Sacro Imperio Romano Germánico"
+ dyn_c_holiest_roman_empire: "Sacro Imperio Romano"
+ dyn_c_holy_socialist_republics: "Santas Repúblicas Socialistas"
+ dyn_c_holy_commune: "Santa Comuna"
+ 
+ IFR:0 "Federación Imperial"
+ IFR_ADJ:0 "Imperial"
+ dyn_c_holy_global_federation: "Santa Federación Global"
+ dyn_c_global_socialist_federation: "Federación Socialista Mundial"
+ dyn_c_global_anarchist_society: "Sociedad Anarquista Mundial"
+ 
+ SOM:0 "Somalia"
+ SOM_ADJ:0 "Somali"
+ 
+ RMA:0 "Imperio Romano"
+ RMA_ADJ:0 "Romano"
+ dyn_c_roman_republic: "República Romana"
+ dyn_c_free_roman_lands: "Tierras libres Romanas"
+ 
+ BGR:0 "Bulgaria-Romania"
+ BGR_ADJ:0 "Bulgarian-Romanian"
+ 
+ LMV:0 "Lombardia-Venecia"
+ LMV_ADJ:0 "Lombardian-Venetian"
+
+ BON:0 "Borneo"
+ BON_ADJ:0 "Bornean" 
+ 
+ ANC:0 "Confederación Antillana"
+ ANC_ADJ:0 "Antillana"
+ 
+ PAG:0 "Patria Grande"
+ PAG_ADJ:0 "Patria"
+
+ GRL:0 "Grandelumiere"
+ GRL_ADJ:0 "Grandelumiere"
+
+ BAA:0 "Banatia"
+ BAA_ADJ:0 "Banatian"
+
+ BAN:0 "Banat"
+ BAN_ADJ:0 "Banat"
+ 
+ MRV:0 "Gran Moravia"
+ MRV_ADJ:0 "Moravian"
+ 
+ ILY:0 "Illyria"
+ ILY_ADJ:0 "Illyrian"
+ 
+ BKV:0 "Bukovina"
+ BKV_ADJ:0 "Bukovinan"

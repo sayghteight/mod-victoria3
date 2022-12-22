@@ -1,0 +1,77 @@
+DecisionCheatAddSomePopluationEffect = {
+	every_scope_state = {
+		limit = {
+			has_decree = DecisionCheatDecree_MarkState
+		}
+		DC_AddSomePopluation = {
+			pop_type = $pop_type$
+			size = $size$
+		}
+	}
+}
+
+
+#$pop_type$
+#$size$
+DC_AddSomePopluation = {
+	if = {
+		limit = {
+			NOT = { cu:north_german = { culture_is_discriminated_in = ROOT } }
+		}
+		create_pop = {
+			culture = north_german
+			pop_type = $pop_type$
+			size = $size$
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { cu:south_german = { culture_is_discriminated_in = ROOT } }
+		}
+		create_pop = {
+			culture = south_german
+			pop_type = $pop_type$
+			size = $size$
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { cu:ashkenazi = { culture_is_discriminated_in = ROOT } }
+		}
+		create_pop = {
+			culture = ashkenazi
+			pop_type = $pop_type$
+			size = $size$
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { cu:wallonian = { culture_is_discriminated_in = ROOT } }
+		}
+		create_pop = {
+			culture = wallonian
+			pop_type = $pop_type$
+			size = $size$
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { cu:han = { culture_is_discriminated_in = ROOT } }
+		}
+		create_pop = {
+			culture = han
+			pop_type = $pop_type$
+			size = $size$
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { cu:yankee = { culture_is_discriminated_in = ROOT } }
+		}
+		create_pop = {
+			culture = yankee
+			pop_type = $pop_type$
+			size = $size$
+		}
+	}
+}

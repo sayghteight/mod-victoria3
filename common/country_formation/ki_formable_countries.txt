@@ -1,0 +1,248 @@
+﻿LOT = { #Lotharingia
+	states = {
+		STATE_HOLLAND
+		STATE_FRIESLAND
+		STATE_GELRE
+		STATE_FLANDERS
+		STATE_WALLONIA
+		STATE_NORTH_RHINE
+		STATE_RHINELAND
+		STATE_ALSACE_LORRAINE
+		STATE_FRANCHE_COMTE
+	}
+
+	required_states_fraction = 0.80
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+			has_technology_researched = pan-nationalism
+			NOT = { has_game_rule = plausible_formable_nations }
+	}
+}
+EUR = { #Europe
+	use_culture_states = yes
+
+	required_states_fraction = 0.45
+
+	possible = {
+		has_technology_researched = pan-nationalism
+		NOT = { has_game_rule = plausible_formable_nations }
+	}
+}
+
+BNL = { #Benelux
+	states = {
+		STATE_HOLLAND
+		STATE_FRIESLAND
+		STATE_GELRE
+		STATE_FLANDERS
+		STATE_WALLONIA
+	}
+
+	required_states_fraction = 1
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+			has_technology_researched = pan-nationalism
+	}
+}
+CEL = { #Celtica
+	use_culture_states = yes
+
+	required_states_fraction = 0.80
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = pan-nationalism
+		NOT = { has_game_rule = plausible_formable_nations }
+
+	}
+	
+}
+CRT = { #CARTHAGE
+	states = {
+		STATE_FEZ
+		STATE_AL_RIF
+		STATE_TLEMCEN
+		STATE_ALGIERS
+		STATE_TUNISIA
+		STATE_LIBYA
+		STATE_TRIPOLI
+		STATE_MALTA
+		STATE_SICILY
+		STATE_SARDINIA
+		STATE_CORSICA
+		STATE_BALEARES
+		STATE_VALENCIA
+		STATE_GRANADA
+		STATE_ANDALUSIA
+	}
+
+	required_states_fraction = 0.65
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		NOT = { has_game_rule = plausible_formable_nations }
+	}
+}
+ZAP = { #Zapadoslavia
+	use_culture_states = yes
+
+	required_states_fraction = 0.73
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+			has_technology_researched = pan-nationalism
+	}
+}
+CRB = { #Caribbean
+	states = {
+		STATE_CUBA
+		STATE_BAHAMAS
+		STATE_JAMAICA
+		STATE_HAITI
+		STATE_SANTO_DOMINGO
+		STATE_PUERTO_RICO
+		STATE_WEST_INDIES
+		STATE_GUAYANA
+	}
+
+	required_states_fraction = 0.625
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+			has_technology_researched = pan-nationalism
+	}
+}
+
+
+
+SOM = {
+	use_culture_states = yes
+	
+	is_major_formation = no
+	
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}
+
+
+
+BGR = {
+	states = {
+        STATE_WALLACHIA 
+        STATE_BULGARIA
+        STATE_MOLDAVIA
+        STATE_NORTHERN_THRACE
+        STATE_DOBRUDJA
+		STATE_BESSARABIA
+		STATE_SKOPIA
+    }	
+	required_states_fraction = 0.6
+	
+	    possible = {
+         root = {
+            AND = {
+                owns_entire_state_region = STATE_BULGARIA
+                owns_entire_state_region = STATE_WALLACHIA 
+				has_state_in_state_region = STATE_MOLDAVIA
+            }
+        }
+    }
+	ai_will_do = { always = yes }
+}
+
+LMV = { #Lombardy-Venice
+	states = {
+		STATE_VENETIA 
+		STATE_LOMBARDY 
+	}
+	is_major_formation = no
+
+	required_states_fraction = 1	
+	
+	ai_will_do = { always = yes }
+}
+
+BON = { #Borneo
+	states = {
+		STATE_EAST_BORNEO 
+		STATE_NORTH_BORNEO
+		STATE_WEST_BORNEO
+	}
+	is_major_formation = no
+
+	required_states_fraction = 0.66	
+	
+	ai_will_do = { always = yes }
+}
+
+ANC = { #Antillean Confederation
+	states = {
+		STATE_SANTO_DOMINGO 
+		STATE_PUERTO_RICO
+		STATE_CUBA
+	}
+	is_major_formation = no
+
+	required_states_fraction = 1	
+	
+	ai_will_do = { always = yes }
+}
+
+PAG = { #Patria Grande
+	use_culture_states = yes
+	
+	is_major_formation = no
+	
+	required_states_fraction = 0.60
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = pan-nationalism
+		NOT = { has_game_rule = plausible_formable_nations }
+	}
+}
+
+MRV = { # Greater Moravia
+	states = {
+		STATE_MORAVIA 
+		STATE_BOHEMIA
+		STATE_WEST_SLOVAKIA
+		STATE_EAST_SLOVAKIA
+		STATE_TRANSDANUBIA
+		STATE_SILESIA
+		STATE_CENTRAL_HUNGARY
+		STATE_SAXONY
+		STATE_AUSTRIA
+		STATE_BEKES
+		STATE_BANAT
+	}
+	is_major_formation = no
+
+	required_states_fraction = 0.66	
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		NOT = { has_game_rule = plausible_formable_nations }
+	}
+}
+
+ILY = {
+	use_culture_states = yes
+	
+	is_major_formation = no
+	
+	required_states_fraction = 0.67
+	
+	ai_will_do = { always = yes }
+}

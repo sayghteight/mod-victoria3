@@ -1,0 +1,173 @@
+DecisionCheat_StateConstructionModifier = {
+	state_construction_mult = 1
+}
+DecisionCheat_CountryConstructionModifier = {
+	country_construction_add = 5000
+}
+DecisionCheat_CountryBureaucracyModifier = {
+	country_bureaucracy_add = 100000
+}
+DecisionCheat_CountryAuthorityModifier = {
+	country_authority_add = 100000
+}
+DecisionCheat_CountryInfluenceModifier = {
+	country_influence_add = 100000
+}
+DecisionCheat_WeeklyInnovationModifier = {
+	country_weekly_innovation_add = 5000
+	country_weekly_innovation_max_add = 5000
+}
+DecisionCheat_StateBirthRateModifier = {
+	state_birth_rate_mult = 2
+}
+DecisionCheat_MigrationPullModifier = {
+	state_migration_pull_mult = 1
+}
+DecisionCheat_InterestGroupApprovalModifier = {
+	interest_group_approval_add = 150
+}
+DecisionCheat_CountryPrestigeModifier = {
+	country_prestige_add = 1000
+}
+DecisionCheat_UnityArmyBonusModifier = {
+	unit_army_offense_add = 300
+	unit_army_defense_add = 300
+}
+DecisionCheat_UnityNavyBonusModifier = {
+	unit_navy_offense_add = 100
+	unit_navy_defense_add = 100
+}
+DecisionCheat_StateTaxCapacityAddModifier = {
+	state_tax_capacity_add = 1000
+}
+DecisionCheat_StateInfrastructureAddModifier = {
+	state_infrastructure_add = 3000
+}
+DecisionCheat_CountryTaxIncomeBonusModifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_tax_income_add = 9000000
+}
+DecisionCheat_CountryLegitimacyBaseBonusModifier = {
+	country_legitimacy_base_add = 10000
+}
+DecisionCheat_BuildingMinesBonusModifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	building_group_bg_mining_throughput_mult = 30
+	building_group_bg_logging_throughput_mult = 30
+	building_group_bg_fishing_throughput_mult = 30
+	building_group_bg_whaling_throughput_mult = 30
+	building_group_bg_oil_extraction_throughput_mult = 30
+}
+DecisionCheat_BuildingFarmsBonusModifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	building_group_bg_agriculture_throughput_mult = 30
+	building_group_bg_ranching_throughput_mult = 30
+	building_group_bg_plantations_throughput_mult = 30
+}
+DecisionCheat_CountryLawEnactmentTimeModifier = {
+	country_law_enactment_time_mult = -0.7
+}
+DecisionCheat_StateAssimilationModifier = {
+	state_assimilation_mult = 3
+}
+DecisionCheat_CountryInfamyDecayDreaseModifier = {
+	country_infamy_decay_mult = 3
+}
+DecisionCheat_CountryInfamyDecayIneaseModifier = {
+	country_infamy_decay_mult = -3
+}
+DecisionCheat_StateStandardOfLivingModifier = {
+	state_standard_of_living_add = 10
+}
+DecisionCheat_StatePopQualificationModifier = {
+	state_pop_qualifications_mult = 3
+}
+DecisionCheat_ColonyGrowthModifier = {
+	state_colony_growth_creation_mult = 3
+	state_colony_growth_speed_mult = 3
+}
+
+DecisionCheat_StateEducationAccessModifier = {
+	state_education_access_add = 3
+}
+
+#军队
+DecisionCheat_InterestGroup_IG_armed_forces_Pol_Str_Increase_Modifier = {
+	interest_group_ig_armed_forces_pol_str_mult = 3
+}
+DecisionCheat_InterestGroup_IG_armed_forces_Pol_Str_Decrease_Modifier = {
+	interest_group_ig_armed_forces_pol_str_mult = -3
+}
+#知识分子
+DecisionCheat_InterestGroup_IG_intelligentsia_Pol_Str_Increase_Modifier = {
+	interest_group_ig_intelligentsia_pol_str_mult = 3
+}
+DecisionCheat_InterestGroup_IG_intelligentsia_Pol_Str_Decrease_Modifier = {
+	interest_group_ig_intelligentsia_pol_str_mult = -3
+}
+#教士
+DecisionCheat_InterestGroup_IG_devout_Pol_Str_Increase_Modifier = {
+	interest_group_ig_devout_pol_str_mult = 3
+}
+DecisionCheat_InterestGroup_IG_devout_Pol_Str_Decrease_Modifier = {
+	interest_group_ig_devout_pol_str_mult = -3
+}
+#实业家
+DecisionCheat_InterestGroup_IG_industrialists_Pol_Str_Increase_Modifier = {
+	interest_group_ig_industrialists_pol_str_mult = 3
+}
+DecisionCheat_InterestGroup_IG_industrialists_Pol_Str_Decrease_Modifier = {
+	interest_group_ig_industrialists_pol_str_mult = -3
+}
+#地主
+DecisionCheat_InterestGroup_IG_landowners_Pol_Str_Increase_Modifier = {
+	interest_group_ig_landowners_pol_str_mult = 3
+}
+DecisionCheat_InterestGroup_IG_landowners_Pol_Str_Decrease_Modifier = {
+	interest_group_ig_landowners_pol_str_mult = -3
+}
+#
+DecisionCheat_InterestGroup_IG_petty_bourgeoisie_Pol_Str_Increase_Modifier = {
+	interest_group_ig_petty_bourgeoisie_pol_str_mult = 3
+}
+DecisionCheat_InterestGroup_IG_petty_bourgeoisie_Pol_Str_Decrease_Modifier = {
+	interest_group_ig_petty_bourgeoisie_pol_str_mult = -3
+}
+#
+DecisionCheat_InterestGroup_IG_rural_folk_Pol_Str_Increase_Modifier = {
+	interest_group_ig_rural_folk_pol_str_mult = 3
+}
+DecisionCheat_InterestGroup_IG_rural_folk_Pol_Str_Decrease_Modifier = {
+	interest_group_ig_rural_folk_pol_str_mult = -3
+}
+#工会
+DecisionCheat_InterestGroup_IG_trade_unions_Pol_Str_Increase_Modifier = {
+	interest_group_ig_trade_unions_pol_str_mult = 3
+}
+DecisionCheat_InterestGroup_IG_trade_unions_Pol_Str_Decrease_Modifier = {
+	interest_group_ig_trade_unions_pol_str_mult = -3
+}
+
+
+
+####################
+DecisionCheat_StateExpectedSol_poor_Increase_Modifier = {
+	state_poor_expected_sol = 10
+}
+DecisionCheat_StateExpectedSol_poor_Decrease_Modifier = {
+	state_poor_expected_sol = -10
+}
+
+DecisionCheat_StateExpectedSol_middle_Increase_Modifier = {
+	state_middle_expected_sol = 10
+}
+DecisionCheat_StateExpectedSol_middle_Decrease_Modifier = {
+	state_middle_expected_sol = -10
+}
+
+DecisionCheat_StateExpectedSol_rich_Increase_Modifier = {
+	state_rich_expected_sol = 10
+}
+DecisionCheat_StateExpectedSol_rich_Decrease_Modifier = {
+	state_rich_expected_sol = -10
+}

@@ -1,0 +1,79 @@
+si_automation_method = {
+	default = si_economic_system_automation
+	si_economic_system_automation = {
+        
+    }
+	si_laissez_faire_automation = {
+        
+    }
+    si_command_economy_automation = {
+        
+    }
+    si_interventionism_automation = {
+        
+    }
+}
+
+si_automation_time_prefrence = {
+	default = si_medium_time_prefrence
+
+	si_short_time_prefrence = {
+        
+    }
+    si_vanilla_time_prefrence = {
+        
+    }	
+    si_medium_time_prefrence = {
+        
+    }
+    si_long_time_prefrence = {
+        
+    }
+    si_infinite_time_prefrence = {
+        
+    }
+}
+
+ldark_time_game = {
+	default = ldark_default_date
+
+    ldark_default_date = {
+		defines = { 
+			NGame = {
+                START_DATE = "1836.1.1"
+                END_DATE = "1936.1.1"
+			}
+		}
+	}
+
+    ldark_low_date = {
+		defines = { 
+			NGame = {
+                START_DATE = "1836.1.1"
+                END_DATE = "1946.1.1"
+			}
+		}
+	}
+
+    ldark_largue_date = {
+		defines = { 
+			NGame = {
+                START_DATE = "1836.1.1"
+                END_DATE = "1966.1.1"
+			}
+		}
+	}
+
+    ldark_infinite_date = {
+		defines = { 
+			NGame = {
+                START_DATE = "1836.1.1"
+                END_DATE = "9999.1.1"
+			}
+
+            NDiplomacy = {
+	            START_INFAMY = 100
+            }
+		}
+	}
+}
