@@ -174,3 +174,21 @@ EUR = { #Europe
 		NOT = { has_game_rule = plausible_formable_nations }
 	}
 }
+
+PAG = { #Patria Grande
+	use_culture_states = yes
+
+	unification_play = dp_unify_pag
+	leadership_play = dp_leadership_pag
+	
+	is_major_formation = yes
+	
+	required_states_fraction = 0.60
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = pan-nationalism
+		NOT = { has_game_rule = plausible_formable_nations }
+	}
+}

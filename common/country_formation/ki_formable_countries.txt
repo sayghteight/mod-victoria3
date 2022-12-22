@@ -187,21 +187,6 @@ ANC = { #Antillean Confederation
 	ai_will_do = { always = yes }
 }
 
-PAG = { #Patria Grande
-	use_culture_states = yes
-	
-	is_major_formation = no
-	
-	required_states_fraction = 0.60
-	
-	ai_will_do = { always = yes }
-
-	possible = {
-		has_technology_researched = pan-nationalism
-		NOT = { has_game_rule = plausible_formable_nations }
-	}
-}
-
 MRV = { # Greater Moravia
 	states = {
 		STATE_MORAVIA 
