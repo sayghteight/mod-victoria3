@@ -156,3 +156,21 @@ GRL = { #Grandelumiere
 		NOT = { has_game_rule = plausible_formable_nations }
 	}
 }
+
+EUR = { #Europe
+	is_major_formation = yes
+
+	unification_play = dp_unify_eur
+	leadership_play = dp_leadership_eur
+
+	use_culture_states = yes
+
+	required_states_fraction = 0.45
+
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = pan-nationalism
+		NOT = { has_game_rule = plausible_formable_nations }
+	}
+}
