@@ -25,6 +25,8 @@ EUR = { #Europe
 
 	required_states_fraction = 0.45
 
+	ai_will_do = { always = yes }
+
 	possible = {
 		has_technology_researched = pan-nationalism
 		NOT = { has_game_rule = plausible_formable_nations }
