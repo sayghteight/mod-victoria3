@@ -1,0 +1,7 @@
+﻿l_spanish:
+ purge_your_vassal_build.1:0 "Soporte de construcción"
+ purge_your_vassal_build_events.1.t:0 "Auge en el sector de la construcción"
+ purge_your_vassal_build_events.1.d:0 "Tras realizar la petición a tu vasallo, este experimentara un auge en la construcción por el tiempo que tu establezcas."
+ purge_your_vassal_build_events.1.choose.1:0 "1 año"
+ purge_your_vassal_build_events.1.choose.2:0 "3 años"
+ purge_your_vassal_build_events.1.choose.3:0 "10 años"
