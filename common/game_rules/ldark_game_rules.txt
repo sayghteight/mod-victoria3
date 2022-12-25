@@ -34,46 +34,33 @@ si_automation_time_prefrence = {
     }
 }
 
-ldark_time_game = {
-	default = ldark_default_date
+ldark_time_cheat = {
+	default = ldark_time_cheat_active
 
-    ldark_default_date = {
-		defines = { 
-			NGame = {
-                START_DATE = "1836.1.1"
-                END_DATE = "1936.1.1"
-			}
-		}
+    ldark_time_cheat_active = {
 	}
 
-    ldark_low_date = {
-		defines = { 
-			NGame = {
-                START_DATE = "1836.1.1"
-                END_DATE = "1946.1.1"
-			}
-		}
+    ldark_time_cheat_disabled = {
 	}
 
-    ldark_largue_date = {
-		defines = { 
-			NGame = {
-                START_DATE = "1836.1.1"
-                END_DATE = "1966.1.1"
-			}
-		}
+}
+
+ldark_unlimited_buildings = {
+	default = ldark_unlimited_buildings_active
+
+    ldark_unlimited_buildings_active = {
 	}
 
-    ldark_infinite_date = {
-		defines = { 
-			NGame = {
-                START_DATE = "1836.1.1"
-                END_DATE = "9999.1.1"
-			}
+    ldark_unlimited_buildings_disabled = {
+	}
+}
 
-            NDiplomacy = {
-	            START_INFAMY = 100
-            }
-		}
+ldark_unlimited_military = {
+	default = ldark_unlimited_military_active
+
+    ldark_unlimited_military_active = {
+	}
+
+    ldark_unlimited_military_disabled = {
 	}
 }

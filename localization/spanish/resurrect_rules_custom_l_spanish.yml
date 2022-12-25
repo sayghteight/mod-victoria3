@@ -24,17 +24,27 @@
  NOT_TRIGGER_MARKET_ACCESS_EQUAL:0 "No tiene 100% de acceso al mercado"
  
 
- rule_ldark_time_game:0 "Configuración de final de partida"
+ rules_ldark_time_cheat:0 "Habilitar cheats"
  
- setting_ldark_default_date:0 "Final de juego por defecto"
- setting_ldark_default_date_desc:0 "DEFECTO: El juego terminará el 1 de enero del 1936."
-  
- setting_ldark_low_date:0 "Final de juego extendido 10 años"
- setting_ldark_low_date_desc:0 "LOW: El juego terminará el 1 de enero del 1946." 
+ setting_ldark_time_cheat_active:0 "Activar"
+ setting_ldark_time_cheat_active_desc:0 ""
 
- setting_ldark_largue_date:0 "Final de juego extendido 30 años"
- setting_ldark_largue_date_desc:0 "LARGUE: El juego terminará el 1 de enero del 1966."
+ setting_ldark_time_cheat_disabled:0 "Desactivar"
+ setting_ldark_time_cheat_disabled_desc:0 ""
 
- setting_ldark_infinite_date:0 "Sin final del juego"
- setting_ldark_infinite_date_desc:0 "INFINITE: El juego terminará el 1 de enero del 9999."
+ rules_ldark_unlimited_buildings:0 "Edificios ilimitados (Recursos)"
  
+ setting_ldark_unlimited_buildings_active:0 "Activar"
+ setting_ldark_unlimited_buildings_active_desc:0 ""
+
+ setting_ldark_unlimited_buildings_disabled:0 "Desactivar"
+ setting_ldark_unlimited_buildings_disabled_desc:0 ""
+
+
+ rules_ldark_unlimited_military:0 "Edificios ilimitados (Desarrollo)"
+ 
+ setting_ldark_unlimited_military_active:0 "Activar"
+ setting_ldark_unlimited_military_active_desc:0 ""
+
+ setting_ldark_unlimited_military_disabled:0 "Desactivar"
+ setting_ldark_unlimited_military_disabled_desc:0 ""

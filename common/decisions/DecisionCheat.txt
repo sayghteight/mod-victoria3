@@ -1,6 +1,11 @@
 Open_Cheat_Decision = {
 	is_shown = {
-		NOT = { has_variable = openCheatDecision_variable }
+		NOT = { 
+			has_variable = openCheatDecision_variable
+		}
+		NOT = { 
+			has_game_rule = ldark_time_cheat_disabled
+		}
 	}
 	possible = {
 
@@ -16,6 +21,7 @@ Open_Cheat_Decision = {
 Close_Cheat_Decison = {
 	is_shown = {
 		has_variable = openCheatDecision_variable
+		
 	}
 	possible = {
 
