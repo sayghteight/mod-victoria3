@@ -1,6 +1,6 @@
 ﻿l_spanish:
- purge_your_vassal_policy_menu3_distribution_of_power.1:0 "$lawgroup_distribution_of_power$ policy modify"
- purge_your_vassal_policy_menu3_distribution_of_power_events.1.t:0 "$lawgroup_distribution_of_power$ policy modify"
+ purge_your_vassal_policy_menu3_distribution_of_power.1:0 "$lawgroup_distribution_of_power$ modificar politica"
+ purge_your_vassal_policy_menu3_distribution_of_power_events.1.t:0 "$lawgroup_distribution_of_power$ modificar politica"
  purge_your_vassal_policy_menu3_distribution_of_power_events.1.d:0 "Modificar política de vasallos"
  purge_your_vassal_policy_menu3_distribution_of_power_events.1.choose.1:0 "$law_autocracy$"
  purge_your_vassal_policy_menu3_distribution_of_power_events.1.choose.2:0 "$law_oligarchy$"
