@@ -193,10 +193,6 @@
  RemoveStateEducationAccess_Decision:0"Remove Education Access Bonus Modifier"
  RemoveStateEducationAccess_Decision_desc:0""
 
- 
- 
- 
- 
  Open_InterstGroup_Str_Increase_Decision:0"Open [concept_interest_group] [concept_political_strength] Increase Decision"
  Open_InterstGroup_Str_Increase_Decision_desc:0""
  Close_InterstGroup_Str_Increase_Decision:0"Close [concept_interest_group] [concept_political_strength] Increase Decision"
