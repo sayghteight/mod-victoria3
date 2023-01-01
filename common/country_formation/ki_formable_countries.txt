@@ -221,3 +221,38 @@ ILY = {
 	
 	ai_will_do = { always = yes }
 }
+
+
+IDN = { 
+	use_culture_states = yes
+
+	unification_play = dp_unify_idn
+	leadership_play = dp_leadership_idn
+	
+	is_major_formation = yes
+	
+	required_states_fraction = 0.60
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		NOT = { has_game_rule = plausible_formable_nations }
+	}
+}
+
+TRH = {
+	use_culture_states = yes
+
+	unification_play = dp_unify_trh
+	leadership_play = dp_leadership_trh
+	
+	is_major_formation = yes
+	
+	required_states_fraction = 0.60
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		NOT = { has_game_rule = plausible_formable_nations }
+	}
+}

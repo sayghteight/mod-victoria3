@@ -5,3 +5,17 @@
  ai_strategy_unify_iberian:0 "Unificación de Ibería"
  ai_strategy_unify_iberian_desc:0 ""
 
+ ai_strategy_unify_pag:0 "Unificación de Latino America"
+ ai_strategy_unify_pag_desc:0 ""
+
+ ai_strategy_unify_benelux:0 "Unificación de Benelux"
+ ai_strategy_unify_benelux_desc:0 ""
+
+ ai_strategy_unify_clm:0 "Unificación de Gran Colombía"
+ ai_strategy_unify_clm_desc:0 ""
+
+ ai_strategy_unify_idn:0 "Unificación de Indonesía"
+ ai_strategy_unify_idn_desc:0 ""
+
+ ai_strategy_unify_trh:0 "Unificación de Turquestán"
+ ai_strategy_unify_trh_desc:0 ""

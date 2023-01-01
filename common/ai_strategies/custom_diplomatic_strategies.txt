@@ -500,7 +500,177 @@ ai_strategy_unify_benelux = {
 	}
 }
 
-# CLM
+# PAG
+
+ai_strategy_unify_pag = {
+	icon = "gfx/interface/icons/ai_strategy_icons/unification.dds"
+	
+	type = diplomatic
+	
+	wanted_army_ratio = 150000 # 1 barrack per 150k incorporated population
+	wanted_navy_ratio = 400000 # 1 naval base per 400k coastal incorporated population
+	
+	undesirable_infamy_level = 50
+	unacceptable_infamy_level = 100
+	
+	ideological_opinion_effect_mult = 0.5
+	
+	wargoal_maneuvers_fraction = {
+		value = 0.1
+	}		
+		
+	diplomatic_play_neutrality = 0 # Added to base neutrality in diplomatic plays	
+	diplomatic_play_boldness = 50 # Added to base boldness in diplomatic plays
+		
+	# Added to value from default strategy
+	obligation_value = {
+		value = 0
+	
+		if = {
+			limit = { 
+				scope:target_country = { can_form_nation = PAG }
+			}
+			add = 25
+		}
+	}			
+		
+	# Added to value from default strategy
+	bravery = {
+		value = 0.5
+	}	
+	
+	# Added to value from default strategy
+	aggression = {
+		value = 0.5
+		
+		if = {
+			limit = { 
+				scope:target_country = { can_form_nation = PAG }
+			}
+			add = 10
+		}
+
+		# Less aggressive against countries we're just antagonistic against, rather than belligerent/domineering
+		if = {
+			limit = {
+				has_attitude = {
+					who = scope:target_country
+					attitude = antagonistic
+				}					
+			}
+			multiply = 0.25
+		}			
+	}
+
+	building_group_weights = {
+		bg_army = 1.5
+	}
+	
+	wargoal_scores = {
+		conquer_state = {
+			if = {
+				limit = {
+					scope:target_state = {
+						state_region = {
+							OR = {
+								is_homeland = cu:central_american
+								is_homeland = cu:mexican 
+								is_homeland = cu:north_andean 
+								is_homeland = cu:south_andean 
+								is_homeland = cu:platinean
+								is_homeland = cu:caribeno
+							}					
+						}						
+					}
+					can_reach_target_state = yes
+				}
+				add = 100
+			}
+		}
+		return_state = {
+			if = {
+				limit = {
+					scope:target_state = {
+						state_region = {
+							OR = {
+								is_homeland = cu:central_american
+								is_homeland = cu:mexican 
+								is_homeland = cu:north_andean 
+								is_homeland = cu:south_andean 
+								is_homeland = cu:platinean
+								is_homeland = cu:caribeno
+							}					
+						}						
+					}					
+				}
+				add = 100
+			}
+		}		
+	}		
+	
+	secret_goal_scores = {
+		befriend = {		
+			if = {
+				limit = {
+					scope:target_country = {
+						can_form_nation = PAG
+					}
+				}
+				add = 200
+			}		
+		}		
+		dominate = {		
+			if = {
+				limit = {
+					scope:target_country = {
+						can_form_nation = PAG
+					}
+				}
+				add = 300
+			}			
+		}		
+		conquer = {				
+			if = {
+				limit = {
+					scope:target_country = {
+						can_form_nation = PAG
+					}
+				}
+				add = 300
+			}				
+		}			
+	}	
+
+	wargoal_weights = {
+		conquer_state = 2.0
+		return_state = 2.0
+	}	
+		
+	possible = {
+		NOT = { exists = c:PAG }
+		can_form_nation = PAG
+	}
+
+	weight = {
+		value = 500
+		
+		if = {
+			limit = { NOT = { is_country_type = unrecognized } }
+			add = 100
+		}		
+
+		if = {
+			limit = { country_rank = rank_value:unrecognized_regional_power }
+			add = 25
+		}
+
+		if = {
+			limit = { country_rank = rank_value:unrecognized_major_power }
+			add = 50
+		}		
+	}
+}
+
 
 ai_strategy_unify_clm = {
 	icon = "gfx/interface/icons/ai_strategy_icons/unification.dds"
@@ -573,8 +743,7 @@ ai_strategy_unify_clm = {
 					scope:target_state = {
 						state_region = {
 							OR = {
-								is_homeland = cu:north_andean
-								is_homeland = cu:afro_caribeno
+								is_homeland = cu:north_andean 
 							}					
 						}						
 					}
@@ -589,8 +758,7 @@ ai_strategy_unify_clm = {
 					scope:target_state = {
 						state_region = {
 							OR = {
-								is_homeland = cu:north_andean
-								is_homeland = cu:afro_caribeno
+								is_homeland = cu:north_andean 
 							}					
 						}						
 					}					
@@ -641,6 +809,350 @@ ai_strategy_unify_clm = {
 	possible = {
 		NOT = { exists = c:CLM }
 		can_form_nation = CLM
+	}
+
+	weight = {
+		value = 500
+		
+		if = {
+			limit = { NOT = { is_country_type = unrecognized } }
+			add = 100
+		}		
+
+		if = {
+			limit = { country_rank = rank_value:unrecognized_regional_power }
+			add = 25
+		}
+
+		if = {
+			limit = { country_rank = rank_value:unrecognized_major_power }
+			add = 50
+		}		
+	}
+}
+
+
+ai_strategy_unify_idn = {
+	icon = "gfx/interface/icons/ai_strategy_icons/unification.dds"
+	
+	type = diplomatic
+	
+	wanted_army_ratio = 150000 # 1 barrack per 150k incorporated population
+	wanted_navy_ratio = 400000 # 1 naval base per 400k coastal incorporated population
+	
+	undesirable_infamy_level = 50
+	unacceptable_infamy_level = 100
+	
+	ideological_opinion_effect_mult = 0.5
+	
+	wargoal_maneuvers_fraction = {
+		value = 0.1
+	}		
+		
+	diplomatic_play_neutrality = 0 # Added to base neutrality in diplomatic plays	
+	diplomatic_play_boldness = 50 # Added to base boldness in diplomatic plays
+		
+	# Added to value from default strategy
+	obligation_value = {
+		value = 0
+	
+		if = {
+			limit = { 
+				scope:target_country = { can_form_nation = IDN }
+			}
+			add = 25
+		}
+	}			
+		
+	# Added to value from default strategy
+	bravery = {
+		value = 0.5
+	}	
+	
+	# Added to value from default strategy
+	aggression = {
+		value = 0.5
+		
+		if = {
+			limit = { 
+				scope:target_country = { can_form_nation = IDN }
+			}
+			add = 10
+		}
+
+		# Less aggressive against countries we're just antagonistic against, rather than belligerent/domineering
+		if = {
+			limit = {
+				has_attitude = {
+					who = scope:target_country
+					attitude = antagonistic
+				}					
+			}
+			multiply = 0.25
+		}			
+	}
+
+	building_group_weights = {
+		bg_army = 1.5
+	}
+	
+	wargoal_scores = {
+		conquer_state = {
+			if = {
+				limit = {
+					scope:target_state = {
+						state_region = {
+							OR = {
+								is_homeland = cu:balinese 
+								is_homeland = cu:batak 
+								is_homeland = cu:bornean 
+								is_homeland = cu:dayak 
+								is_homeland = cu:javan 
+								is_homeland = cu:malay 
+								is_homeland = cu:moluccan 
+								is_homeland = cu:sumatran
+							}					
+						}						
+					}
+					can_reach_target_state = yes
+				}
+				add = 100
+			}
+		}
+		return_state = {
+			if = {
+				limit = {
+					scope:target_state = {
+						state_region = {
+							OR = {
+								is_homeland = cu:balinese 
+								is_homeland = cu:batak 
+								is_homeland = cu:bornean 
+								is_homeland = cu:dayak 
+								is_homeland = cu:javan 
+								is_homeland = cu:malay 
+								is_homeland = cu:moluccan 
+								is_homeland = cu:sumatran
+							}					
+						}						
+					}					
+				}
+				add = 100
+			}
+		}		
+	}		
+	
+	secret_goal_scores = {
+		befriend = {		
+			if = {
+				limit = {
+					scope:target_country = {
+						can_form_nation = IDN
+					}
+				}
+				add = 200
+			}		
+		}		
+		dominate = {		
+			if = {
+				limit = {
+					scope:target_country = {
+						can_form_nation = IDN
+					}
+				}
+				add = 300
+			}			
+		}		
+		conquer = {				
+			if = {
+				limit = {
+					scope:target_country = {
+						can_form_nation = IDN
+					}
+				}
+				add = 300
+			}				
+		}			
+	}	
+
+	wargoal_weights = {
+		conquer_state = 2.0
+		return_state = 2.0
+	}	
+		
+	possible = {
+		NOT = { exists = c:IDN }
+		can_form_nation = IDN
+	}
+
+	weight = {
+		value = 500
+		
+		if = {
+			limit = { NOT = { is_country_type = unrecognized } }
+			add = 100
+		}		
+
+		if = {
+			limit = { country_rank = rank_value:unrecognized_regional_power }
+			add = 25
+		}
+
+		if = {
+			limit = { country_rank = rank_value:unrecognized_major_power }
+			add = 50
+		}		
+	}
+}
+
+
+ai_strategy_unify_trh = {
+	icon = "gfx/interface/icons/ai_strategy_icons/unification.dds"
+	
+	type = diplomatic
+	
+	wanted_army_ratio = 150000 # 1 barrack per 150k incorporated population
+	wanted_navy_ratio = 400000 # 1 naval base per 400k coastal incorporated population
+	
+	undesirable_infamy_level = 50
+	unacceptable_infamy_level = 100
+	
+	ideological_opinion_effect_mult = 0.5
+	
+	wargoal_maneuvers_fraction = {
+		value = 0.1
+	}		
+		
+	diplomatic_play_neutrality = 0 # Added to base neutrality in diplomatic plays	
+	diplomatic_play_boldness = 50 # Added to base boldness in diplomatic plays
+		
+	# Added to value from default strategy
+	obligation_value = {
+		value = 0
+	
+		if = {
+			limit = { 
+				scope:target_country = { can_form_nation = TRH }
+			}
+			add = 25
+		}
+	}			
+		
+	# Added to value from default strategy
+	bravery = {
+		value = 0.5
+	}	
+	
+	# Added to value from default strategy
+	aggression = {
+		value = 0.5
+		
+		if = {
+			limit = { 
+				scope:target_country = { can_form_nation = TRH }
+			}
+			add = 10
+		}
+
+		# Less aggressive against countries we're just antagonistic against, rather than belligerent/domineering
+		if = {
+			limit = {
+				has_attitude = {
+					who = scope:target_country
+					attitude = antagonistic
+				}					
+			}
+			multiply = 0.25
+		}			
+	}
+
+	building_group_weights = {
+		bg_army = 1.5
+	}
+	
+	wargoal_scores = {
+		conquer_state = {
+			if = {
+				limit = {
+					scope:target_state = {
+						state_region = {
+							OR = {
+								is_homeland = cu:uzbek 
+								is_homeland = cu:kirgiz 
+								is_homeland = cu:kazak 
+								is_homeland = cu:turkmen 
+								is_homeland = cu:tajik 
+								is_homeland = cu:uighur
+							}					
+						}						
+					}
+					can_reach_target_state = yes
+				}
+				add = 100
+			}
+		}
+		return_state = {
+			if = {
+				limit = {
+					scope:target_state = {
+						state_region = {
+							OR = {
+								is_homeland = cu:uzbek 
+								is_homeland = cu:kirgiz 
+								is_homeland = cu:kazak 
+								is_homeland = cu:turkmen 
+								is_homeland = cu:tajik 
+								is_homeland = cu:uighur
+							}					
+						}						
+					}					
+				}
+				add = 100
+			}
+		}		
+	}		
+	
+	secret_goal_scores = {
+		befriend = {		
+			if = {
+				limit = {
+					scope:target_country = {
+						can_form_nation = TRH
+					}
+				}
+				add = 200
+			}		
+		}		
+		dominate = {		
+			if = {
+				limit = {
+					scope:target_country = {
+						can_form_nation = TRH
+					}
+				}
+				add = 300
+			}			
+		}		
+		conquer = {				
+			if = {
+				limit = {
+					scope:target_country = {
+						can_form_nation = TRH
+					}
+				}
+				add = 300
+			}				
+		}			
+	}	
+
+	wargoal_weights = {
+		conquer_state = 2.0
+		return_state = 2.0
+	}	
+		
+	possible = {
+		NOT = { exists = c:TRH }
+		can_form_nation = TRH
 	}
 
 	weight = {
