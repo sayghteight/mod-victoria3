@@ -33,5 +33,10 @@ DC_CheckAddPop_trigger = {
 				culture_is_discriminated_in = ROOT
 			}
 		}
+		cu:armenian = {
+			NOT = {
+				culture_is_discriminated_in = ROOT
+			}
+		}
 	}
 }

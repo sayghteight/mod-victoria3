@@ -1,0 +1,2 @@
+
+construction_cost_extra_low = 10

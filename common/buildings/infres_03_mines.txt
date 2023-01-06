@@ -5,7 +5,7 @@
 	texture = "gfx/interface/icons/building_icons/coal_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
-	required_construction = construction_cost_medium
+	required_construction = construction_cost_extra_low
 	terrain_manipulator = mining
 	unlocking_technologies = {
 		shaft_mining
@@ -27,7 +27,7 @@ building_infres_iron_mine = {
 	texture = "gfx/interface/icons/building_icons/iron_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
-	required_construction = construction_cost_medium
+	required_construction = construction_cost_extra_low
 	terrain_manipulator = mining
 	
 	unlocking_technologies = {
@@ -50,7 +50,7 @@ building_infres_lead_mine = {
 	texture = "gfx/interface/icons/building_icons/lead_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
-	required_construction = construction_cost_medium
+	required_construction = construction_cost_extra_low
 	terrain_manipulator = mining
 	unlocking_technologies = {
 		shaft_mining
@@ -72,7 +72,7 @@ building_infres_sulfur_mine = {
 	texture = "gfx/interface/icons/building_icons/sulfur_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
-	required_construction = construction_cost_medium
+	required_construction = construction_cost_extra_low
 	terrain_manipulator = mining
 	unlocking_technologies = {
 		shaft_mining
@@ -94,7 +94,7 @@ building_infres_gold_mine = {
 	texture = "gfx/interface/icons/building_icons/gold_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
-	required_construction = construction_cost_medium
+	required_construction = construction_cost_extra_low
 	terrain_manipulator = mining
 	
 	unlocking_technologies = {
